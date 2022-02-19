@@ -8,6 +8,7 @@ available on the internet from various resources like Youtube Github etc.
 |  :----------------:   |   :------------------:  |     :--------------:       |
 |[Project-1](#project-1)|   [demo](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)    |Food Menu filter|
 |   [Project-2](#project-2)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html)    |Responsive grocery list|
+|   [Project-3](#project-3)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)    |Responsive tabs|
 
 ## Project-1
 >Food Menu Filter
@@ -31,3 +32,14 @@ In this project i have build a grocery bud app. It uses the local storage to cre
     - JAVASCRIPT
     
 You can check my code for the [project](./project-2) in the repo. **Here check the [live](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html) demo**
+
+## Project-3  
+>Responsive Tabs   
+
+In this project I have made responsive tabs, which switch using javascript. It is a very basic project and will help beginners learning web development.
+- **Tools Used**
+    - HTML
+    - CSS
+    - JAVASCRIPT
+    
+You can check my code for the [project](./project-3) in the repo. **Here check the [live](https://sourabh358.github.io/100_projects.github.io/project-3/index.html) demo**
