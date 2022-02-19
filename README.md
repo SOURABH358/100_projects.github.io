@@ -10,7 +10,17 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-2](#project-2)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html)    |Responsive grocery list|
 
 ## Project-1
+>Food Menu Filter
+
+In this project We have a food menu filter that allows the user to filter food menu according to their preferences.
+
+- **Tools Used**
+    - HTML
+    - CSS
+    - JAVASCRIPT
+    
 You can check the code for the [project](/project-1) in my repo. **Here you can check the live working [demo](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)**
+
 ## Project-2  
 >Grocery Bud   
 
