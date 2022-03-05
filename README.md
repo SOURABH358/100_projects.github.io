@@ -72,7 +72,7 @@ This project is a challenge completed by me at Frontendmentor. It is a NFT Card 
 
 ### Links
 [Code](./project-5)  
-Solution Url - [Solution URL here]()  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-challenge-hub-KXd3-rg4G)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-5/)
 
 ## Author
