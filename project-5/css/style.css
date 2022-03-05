@@ -1,0 +1,156 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsla(178, 100%, 50%,0.4);
+    --Cyan-dark: hsl(178,100%,50%);
+    --Very-dark-blue-main: hsl(217, 54%, 11%);
+    --Very-dark-blue-card: hsl(216, 50%, 16%);
+    --Very-dark-blue-text: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --transition: 0.5s ease;
+}
+html{
+    font-size : 18px;
+}
+body{
+    background:var(--Very-dark-blue-main);
+}
+.card{
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--Very-dark-blue-card);
+    margin: 100px auto;
+    position: relative;
+}
+.card::after{
+    content: '';
+    position : absolute;
+    top: 5%;
+    left: -5%;
+    width: 110%;
+    border-radius: 40px;
+    height: 100%;
+    background: rgba(0,0,0,0.1);
+    z-index: -1;
+}
+.card::before{
+    content: '';
+    position : absolute;
+    top: -5%;
+    left: -15%;
+    width: 130%;
+    border-radius: 60px;
+    height: 115%;
+    background: rgba(0,0,0,0.03);
+    z-index: -1;
+}
+
+.image{
+    width: 100%;
+    height: 340px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url('../images/image-equilibrium.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.image .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--Cyan);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: var(--transition);
+}
+.image .overlay:hover{
+    opacity: 1;
+}
+
+.info-section{
+    margin-top: 30px;
+    border-bottom: 2px solid var(--Very-dark-blue-text);
+}
+.info-section h1{
+    font-size: 1.5rem;
+    color: var(--White);
+    margin-bottom: 30px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.info-section h1:hover{
+    color: var(--Cyan-dark);
+}
+.info-section>p{
+    font-size: 1.2rem;
+    color: var(--Soft-blue);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.info-section .eth-clock{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.info-section .eth-clock .clock{
+    display: flex;
+}
+.info-section .eth-clock .eth{
+    display: flex;
+}
+.info-section .eth-clock .eth p{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--Cyan-dark);
+    margin-left: 10px;
+}
+.info-section .eth-clock .eth img{
+    width: 0.8rem;
+}
+.info-section .eth-clock .clock p{
+    font-size: 1.1rem;
+    color: var(--Soft-blue);
+    margin-left: 10px;
+}
+.info-section .eth-clock .clock img{
+    object-fit: cover;
+    padding: 2px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.user img{
+    width: 2rem;
+    margin-right: 20px;
+    border: 2px solid var(--White);
+    border-radius: 50%;
+}
+.user p{
+    color: var(--Soft-blue);
+}
+.user p a{
+    text-decoration: none;
+    color: var(--White);
+    transition: var(--transition);
+}
+.user p a:hover{
+    color: var(--Cyan-dark);
+
+}
