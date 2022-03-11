@@ -12,7 +12,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-4](#project-4)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calcultor App|
 |   [Project-5](#project-5)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-5/)              |NFT Card|
 |   [Project-6](#project-6)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-6/)              |Advice Generator App|
-
+|   [Project-7](#project-6)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
 
 ## Project-1
 >Food Menu Filter
@@ -92,6 +92,20 @@ This is another challenge completed by me of Frontendmentor. It is an amazing we
 [Code](./project-6)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-ulVxNw9TH)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-6/)  
+
+## Project-7
+>Animated website
+
+This is an animated website. Website is divided into two partitions which change sizes and translate on hover which make it look very beautiful. Hope you like it.
+
+- **Built With**
+    - HTML  
+    - CSS
+    - Javascript  
+    
+### Links
+[Code](./project-7)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-7/)  
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
 GitHub - [@Sourabh358](https://github.com/SOURABH358)  
