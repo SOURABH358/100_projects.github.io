@@ -12,7 +12,9 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-4](#project-4)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calcultor App|
 |   [Project-5](#project-5)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-5/)              |NFT Card|
 |   [Project-6](#project-6)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-6/)              |Advice Generator App|
-|   [Project-7](#project-6)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
+|   [Project-7](#project-7)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
+|   [Project-8](#project-8)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-8/)              |Animated Cards|
+
 
 ## Project-1
 >Food Menu Filter
@@ -106,6 +108,18 @@ This is an animated website. Website is divided into two partitions which change
 ### Links
 [Code](./project-7)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-7/)  
+## Project-8
+>Animated Cards
+
+In this project I have made animated cards which expands and contracts after being clicked. Do check it out.
+- **Built With**
+    - HTML  
+    - CSS
+    - Javascript  
+    
+### Links
+[Code](./project-8)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-8/)  
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
 GitHub - [@Sourabh358](https://github.com/SOURABH358)  
