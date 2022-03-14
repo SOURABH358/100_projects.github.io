@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width:90%;
+    height: 80%;
+    margin:auto;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width:7%;
+    height:100%;
+    border:1px solid black;
+    border-radius: 60px;
+    transition:1s ease-in-out;
+}
+.box.big{
+    width:65%;
+}
+.box:nth-child(1){
+    background-image: url(./images/ps5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box:nth-child(2){
+    background-image: url(./images/xbox.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box:nth-child(3){
+    background-image: url(./images/ps5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box:nth-child(4){
+    background-image: url(./images/xbox.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box:nth-child(5){
+    background-image: url(./images/ps5.jpg);
+    background-position: center;
+    background-size: cover;
+}
