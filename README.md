@@ -14,7 +14,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-6](#project-6)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-6/)              |Advice Generator App|
 |   [Project-7](#project-7)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
 |   [Project-8](#project-8)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-8/)              |Animated Cards|
-|   [Project-9](#project-9)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-9/)              |Remote Work site|
+|   [Project-9](#project-9)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-9/)              |Remote Work landing page|
 
 
 ## Project-1
@@ -120,7 +120,20 @@ In this project I have made animated cards which expands and contracts after bei
     
 ### Links
 [Code](./project-8)  
-Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-8/)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-8/) 
+## Project-9
+>Remote work landing page
+
+In this project I have completed one of the challenges of Front end mentor. Challenge was to design a landing page for Remote work website.
+- **Built With**
+    - HTML  
+    - CSS
+    - SCSS
+    - Javascript  
+    
+### Links
+[Code](./project-9)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-9/) 
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
 GitHub - [@Sourabh358](https://github.com/SOURABH358)  
