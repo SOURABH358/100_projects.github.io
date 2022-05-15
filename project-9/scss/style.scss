@@ -193,7 +193,8 @@ body{
          border: 2px solid $Almost-Black;
          padding: 0.8rem 1.2rem;
          border-radius: 0.5rem;
-         font-size: 0.8rem;
+         font-size: 1rem;
+         font-weight: bolder;
          color: $Almost-White;
          background: $Almost-Black;
          &:hover{
@@ -308,18 +309,18 @@ body{
         flex-direction: row;
         width: 80%;
         margin: 4rem auto;
-        gap: 20%;
+        gap: 10%;
         .content{
             width: 50%;
             text-align: left;
             padding-top: 7rem;
             .content-heading{
                 margin:0;
-                margin-bottom:4rem ;
-                font-size: 4rem;
+                margin-bottom:2rem ;
+                font-size: 5rem;
             }
             .btn{
-                margin-bottom: 4rem;
+                margin-bottom: 8rem;
             }
             .client-links{
                 padding: 0;
@@ -329,7 +330,7 @@ body{
             }
         }
         .hero{
-            width: 40%;
+            width: 50%;
             background: url('../images/image-hero-desktop.png') no-repeat;
             background-size: contain;
         }

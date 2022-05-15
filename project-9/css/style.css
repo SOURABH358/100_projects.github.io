@@ -237,7 +237,8 @@ body {
   border: 2px solid #141414;
   padding: 0.8rem 1.2rem;
   border-radius: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: bolder;
   color: #fafafa;
   background: #141414;
 }
@@ -392,7 +393,7 @@ body {
             flex-direction: row;
     width: 80%;
     margin: 4rem auto;
-    gap: 20%;
+    gap: 10%;
   }
   .main .content {
     width: 50%;
@@ -401,11 +402,11 @@ body {
   }
   .main .content .content-heading {
     margin: 0;
-    margin-bottom: 4rem;
-    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-size: 5rem;
   }
   .main .content .btn {
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
   }
   .main .content .client-links {
     padding: 0;
@@ -414,7 +415,7 @@ body {
     width: 100%;
   }
   .main .hero {
-    width: 40%;
+    width: 50%;
     background: url("../images/image-hero-desktop.png") no-repeat;
     background-size: contain;
   }
