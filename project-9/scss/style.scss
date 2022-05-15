@@ -174,9 +174,9 @@ body{
  .hero{
     width: 100%;
     aspect-ratio: 1;
-     background: url('../images/image-hero-mobile.png'), no-repeat;
+     background: url('../images/image-hero-mobile.png') no-repeat;
      background-position: center;
-     background-size: cover;
+     background-size: contain;
  }
  .content{
      text-align: center;
@@ -330,7 +330,6 @@ body{
         }
         .hero{
             width: 40%;
-            aspect-ratio: initial;
             background: url('../images/image-hero-desktop.png') no-repeat;
             background-size: contain;
         }
