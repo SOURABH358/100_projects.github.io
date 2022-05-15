@@ -392,7 +392,7 @@ body {
             flex-direction: row;
     width: 80%;
     margin: 4rem auto;
-    gap: 10%;
+    gap: 20%;
   }
   .main .content {
     width: 50%;
@@ -405,7 +405,7 @@ body {
     font-size: 4rem;
   }
   .main .content .btn {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
   .main .content .client-links {
     padding: 0;
@@ -414,10 +414,10 @@ body {
     width: 100%;
   }
   .main .hero {
-    width: 50%;
-    aspect-ratio: 1;
-    background: url("../images/image-hero-desktop.png"), no-repeat;
-    background-size: cover;
+    width: 40%;
+    aspect-ratio: initial;
+    background: url("../images/image-hero-desktop.png") no-repeat;
+    background-size: contain;
   }
 }
 /*# sourceMappingURL=style.css.map */
