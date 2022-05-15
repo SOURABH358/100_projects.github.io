@@ -392,10 +392,10 @@ body {
             flex-direction: row;
     width: 80%;
     margin: 4rem auto;
-    gap: 20%;
+    gap: 10%;
   }
   .main .content {
-    width: 40%;
+    width: 50%;
     text-align: left;
     padding-top: 7rem;
   }
@@ -414,7 +414,8 @@ body {
     width: 100%;
   }
   .main .hero {
-    width: 40%;
+    width: 50%;
+    aspect-ratio: 1;
     background: url("../images/image-hero-desktop.png"), no-repeat;
     background-size: cover;
   }
