@@ -6,7 +6,7 @@ available on the internet from various resources like Youtube Github etc.
 ## Table of Content
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Projects &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Demo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 |  :----------------:   |   :------------------:  |     :--------------:       |
-|[Project-1](#project-1)|   [demo](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)    |Food Menu filter|
+|[Project-1](#project-1)|   [live site ](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)    |Food Menu filter|
 |   [Project-2](#project-2)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html)    |Responsive grocery list|
 |   [Project-3](#project-3)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)    |Responsive tabs|
 |   [Project-4](#project-4)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calcultor App|
@@ -149,7 +149,7 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     
 ### Links
 [Code](./project-10) 
-Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-BkgzY7CUq)
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/expense-tracker-chart-component-Zb4VAxQC9H)
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-10/)
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
