@@ -133,8 +133,8 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     - Javascript  
     
 ### Links
-[Code](./project-9) 
-Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-BkgzY7CUq)
+[Code](./project-9)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-BkgzY7CUq)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-9/)
 
 ## Project-10
@@ -148,8 +148,8 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     - Javascript  
     
 ### Links
-[Code](./project-10) 
-Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/expense-tracker-chart-component-Zb4VAxQC9H)
+[Code](./project-10)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/expense-tracker-chart-component-Zb4VAxQC9H)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-10/)
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
