@@ -9,13 +9,13 @@ available on the internet from various resources like Youtube Github etc.
 |[Project-1](#project-1)|   [live site ](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)    |Food Menu filter|
 |   [Project-2](#project-2)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html)    |Responsive grocery list|
 |   [Project-3](#project-3)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)    |Responsive tabs|
-|   [Project-4](#project-4)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calcultor App|
+|   [Project-4](#project-4)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calculator App|
 |   [Project-5](#project-5)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-5/)              |NFT Card|
 |   [Project-6](#project-6)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-6/)              |Advice Generator App|
 |   [Project-7](#project-7)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
 |   [Project-8](#project-8)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-8/)              |Animated Cards|
 |   [Project-9](#project-9)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-9/)              |Remote Work landing page|
-|   [Project-10](#project-10)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-10/)              |expense-tracker-chart-component|
+|   [Project-10](#project-10)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-10/)              |Expense tracker chart component|
 
 
 ## Project-1
