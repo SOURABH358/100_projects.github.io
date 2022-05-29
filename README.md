@@ -145,7 +145,6 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     - HTML  
     - CSS
     - SCSS
-    - Javascript  
     
 ### Links
 [Code](./project-10)  
