@@ -1,0 +1,237 @@
+*,
+::after,
+::before {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+:root {
+  font-size: 18px;
+}
+
+body {
+  background-color: #f8e9dd;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+hr {
+  background-color: #93867b;
+  margin-bottom: 1.5rem;
+}
+
+.balance-section {
+  background-color: #ec775f;
+  width: 450px;
+  height: 6.25rem;
+  border-radius: 1rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.balance-section .balance p {
+  font-size: 0.9rem;
+}
+
+.balance-section .balance h1 {
+  font-weight: bold;
+}
+
+.chart-section {
+  background: #fffaf5;
+  width: 450px;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.chart-section .chart-heading {
+  font-size: 1.5rem;
+  color: #382314;
+  font-weight: bold;
+}
+
+.chart-section .bars {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chart-section .bars .bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.chart-section .bars .bar .bar-fig {
+  border-radius: 0.25rem;
+  position: relative;
+  width: 40px;
+}
+
+.chart-section .bars .bar .bar-fig .bar-value {
+  position: absolute;
+  top: -1.75rem;
+  left: -18%;
+  background: #382314;
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  letter-spacing: 0.05rem;
+  border-radius: 0.2rem;
+  display: none;
+}
+
+.chart-section .bars .bar .bar-fig:hover {
+  background: #f29e8d;
+}
+
+.chart-section .bars .bar .bar-fig:hover .bar-value {
+  display: block;
+}
+
+.chart-section .bars .bar .bar-label {
+  font-size: 0.8rem;
+  color: #93867b;
+}
+
+.chart-section .bars .mon .bar-fig {
+  height: 35px;
+  background: #ec775f;
+}
+
+.chart-section .bars .tue .bar-fig {
+  height: 70px;
+  background: #ec775f;
+}
+
+.chart-section .bars .wed .bar-fig {
+  height: 105px;
+  background: #76b5bc;
+}
+
+.chart-section .bars .wed .bar-fig:hover {
+  background: #98c7cd;
+}
+
+.chart-section .bars .thu .bar-fig {
+  height: 63px;
+  background: #ec775f;
+}
+
+.chart-section .bars .fri .bar-fig {
+  height: 47px;
+  background: #ec775f;
+}
+
+.chart-section .bars .sat .bar-fig {
+  height: 87px;
+  background: #ec775f;
+}
+
+.chart-section .bars .sun .bar-fig {
+  height: 51px;
+  background: #ec775f;
+}
+
+.chart-section .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chart-section .total .total-info .total-heading {
+  font-size: 0.8rem;
+  color: #93867b;
+}
+
+.chart-section .total .total-info .total-value {
+  font-size: 2.25rem;
+  color: #382314;
+  font-weight: bold;
+}
+
+.chart-section .total .inc-per {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.chart-section .total .inc-per .per {
+  font-size: 0.8rem;
+  color: #382314;
+  font-weight: bold;
+}
+
+.chart-section .total .inc-per .inc-heading {
+  font-size: 0.8rem;
+  color: #93867b;
+}
+
+@media screen and (max-width: 376px) {
+  .balance-section {
+    width: 90%;
+  }
+  .chart-section {
+    width: 90%;
+    padding: 1rem;
+  }
+  .chart-section .bars .bar .bar-fig {
+    width: 35px;
+  }
+  .chart-section .bars .bar .bar-label {
+    font-size: 0.7rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
