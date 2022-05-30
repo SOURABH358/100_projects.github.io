@@ -15,7 +15,7 @@ $Dark-blue: hsl(223, 47%, 23%);
 body{
     width: 100%;
     min-height: 100vh;
-    background-image: url(/images/pattern-background-mobile.svg);
+    background-image: url(../images/pattern-background-mobile.svg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -103,7 +103,7 @@ body{
 }
 @media screen and (min-width: 375px) {
     body{
-        background-image: url('/images/pattern-background-desktop.svg');
+        background-image: url('../images/pattern-background-desktop.svg');
     }
     #card{
         .card-info{
