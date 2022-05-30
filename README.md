@@ -6,15 +6,16 @@ available on the internet from various resources like Youtube Github etc.
 ## Table of Content
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Projects &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Demo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 |  :----------------:   |   :------------------:  |     :--------------:       |
-|[Project-1](#project-1)|   [demo](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)    |Food Menu filter|
-|   [Project-2](#project-2)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html)    |Responsive grocery list|
-|   [Project-3](#project-3)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)    |Responsive tabs|
-|   [Project-4](#project-4)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calcultor App|
-|   [Project-5](#project-5)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-5/)              |NFT Card|
-|   [Project-6](#project-6)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-6/)              |Advice Generator App|
-|   [Project-7](#project-7)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
-|   [Project-8](#project-8)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-8/)              |Animated Cards|
-|   [Project-9](#project-9)   |   [demo](https://sourabh358.github.io/100_projects.github.io/project-9/)              |Remote Work landing page|
+|[Project-1](#project-1)|   [live site ](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)    |Food Menu filter|
+|   [Project-2](#project-2)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html)    |Responsive grocery list|
+|   [Project-3](#project-3)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)    |Responsive tabs|
+|   [Project-4](#project-4)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calculator App|
+|   [Project-5](#project-5)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-5/)              |NFT Card|
+|   [Project-6](#project-6)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-6/)              |Advice Generator App|
+|   [Project-7](#project-7)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
+|   [Project-8](#project-8)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-8/)              |Animated Cards|
+|   [Project-9](#project-9)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-9/)              |Remote Work landing page|
+|   [Project-10](#project-10)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-10/)              |Expense tracker chart component|
 
 
 ## Project-1
@@ -133,7 +134,22 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     
 ### Links
 [Code](./project-9)  
-Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-9/) 
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-BkgzY7CUq)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-9/)
+
+## Project-10
+>Expense tracker chart component
+
+In this project I have completed one of the challenges of Front end mentor. Challenge was to design a static chart component of an expense tracker app. Files and style guide was provided for the challenge below is my solution link.
+- **Built With**
+    - HTML  
+    - CSS
+    - SCSS
+    
+### Links
+[Code](./project-10)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/expense-tracker-chart-component-Zb4VAxQC9H)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-10/)
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
 GitHub - [@Sourabh358](https://github.com/SOURABH358)  
