@@ -16,6 +16,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-8](#project-8)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-8/)              |Animated Cards|
 |   [Project-9](#project-9)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-9/)              |Remote Work landing page|
 |   [Project-10](#project-10)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-10/)              |Expense tracker chart component|
+|   [Project-11](#project-11)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-11/)              |Order Summary Component|
 
 
 ## Project-1
@@ -149,7 +150,21 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 ### Links
 [Code](./project-10)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/expense-tracker-chart-component-Zb4VAxQC9H)  
-Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-10/)
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-10/)  
+
+## Project-11
+>Order Summary Component
+
+In this project I have completed one of the challenges of Front end mentor. Challenge was to design a static order summary component. Files and style guide was provided for the challenge below is my solution link.
+- **Built With**
+    - HTML  
+    - CSS
+    - SCSS
+    
+### Links
+[Code](./project-11)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/expense-tracker-chart-component-Zb4VAxQC9H)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-11/)
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
 GitHub - [@Sourabh358](https://github.com/SOURABH358)  
