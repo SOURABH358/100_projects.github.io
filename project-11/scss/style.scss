@@ -1,0 +1,113 @@
+$Pale-blue: hsl(225, 100%, 94%);
+$Bright-blue: hsl(245, 75%, 52%);
+$Light-bright-blue: hsl(245, 75%, 68%);
+$Very-pale-blue: hsl(225, 100%, 98%);
+$Desaturated-blue: hsl(224, 23%, 55%);
+$Dark-blue: hsl(223, 47%, 23%);
+
+:root{
+    font-size: 16px;
+}
+*,::after,::before{
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    height: 90vh;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 2rem;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.1);
+
+    .card-hero{
+        width: 100%;
+        img{
+            width: 100%
+        }
+    }
+    .card-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        .card-summary{
+            width: 90%;
+            line-height: 1.75rem;
+            color:$Desaturated-blue;
+            margin-top: 0.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .annual-plan{
+            width: 100%;
+            border-radius: 1rem;
+            display: flex;
+            background-color: $Very-pale-blue;
+            justify-content: space-between;
+            padding: 1rem;
+            align-items: center;
+            .plan{
+                .plan-money{
+                    color: $Desaturated-blue;
+                }
+            }
+            a{
+                color: $Bright-blue;
+                font-weight: bold;
+                &:hover{
+                    text-decoration: none;
+                    color: $Light-bright-blue;
+                }
+            }
+        }
+        .payment-button{
+            width: 100%;
+            color: white;
+            font-weight: bold;
+            background: $Bright-blue;
+            border: none;
+            padding: 1rem 0;
+            border-radius: 1rem;
+            margin: 1.5rem 0;
+            box-shadow: 0px 2px 8px 4px rgba(0,0,0,0.1);
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                background: $Light-bright-blue;
+            }
+        }
+        .cancel-order{
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            color: $Desaturated-blue;
+            &:hover{
+                color: $Dark-blue;
+            }
+        }
+    }
+}
+@media screen and (min-width: 375px) {
+    body{
+        background-image: url('/images/pattern-background-desktop.svg');
+    }
+    #card{
+        .card-info{
+            padding: 2rem 4rem;
+        }
+    }
+}

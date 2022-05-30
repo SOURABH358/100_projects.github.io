@@ -1,0 +1,145 @@
+:root {
+  font-size: 16px;
+}
+
+*, ::after, ::before {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/images/pattern-background-mobile.svg);
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#card {
+  height: 90vh;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 2rem;
+  overflow: hidden;
+  background: white;
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+#card .card-hero {
+  width: 100%;
+}
+
+#card .card-hero img {
+  width: 100%;
+}
+
+#card .card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+#card .card-info .card-summary {
+  width: 90%;
+  line-height: 1.75rem;
+  color: #7280a7;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#card .card-info .annual-plan {
+  width: 100%;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f5f7ff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#card .card-info .annual-plan .plan .plan-money {
+  color: #7280a7;
+}
+
+#card .card-info .annual-plan a {
+  color: #3829e0;
+  font-weight: bold;
+}
+
+#card .card-info .annual-plan a:hover {
+  text-decoration: none;
+  color: #7a70eb;
+}
+
+#card .card-info .payment-button {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  background: #3829e0;
+  border: none;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  margin: 1.5rem 0;
+  -webkit-box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#card .card-info .payment-button:hover {
+  background: #7a70eb;
+}
+
+#card .card-info .cancel-order {
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #7280a7;
+}
+
+#card .card-info .cancel-order:hover {
+  color: #1f2f56;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    background-image: url("/images/pattern-background-desktop.svg");
+  }
+  #card .card-info {
+    padding: 2rem 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
