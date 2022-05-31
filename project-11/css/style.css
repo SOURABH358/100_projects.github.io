@@ -10,7 +10,7 @@
 body {
   width: 100%;
   min-height: 100vh;
-  background-image: url(/images/pattern-background-mobile.svg);
+  background: url("../images/pattern-background-mobile.svg");
   background-position: center;
   background-size: cover;
   display: -webkit-box;
@@ -136,7 +136,7 @@ body {
 
 @media screen and (min-width: 375px) {
   body {
-    background-image: url("/images/pattern-background-desktop.svg");
+    background: url("../images/pattern-background-desktop.svg");
   }
   #card .card-info {
     padding: 2rem 4rem;
