@@ -153,6 +153,7 @@ body {
   }
   #card .card-info .card-summary {
     font-size: 1rem;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
