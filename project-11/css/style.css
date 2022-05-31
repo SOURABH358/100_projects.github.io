@@ -11,8 +11,9 @@ body {
   width: 100%;
   min-height: 100vh;
   background: url("../images/pattern-background-mobile.svg") no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #e0e8ff;
+  background-position: top;
+  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,7 +26,6 @@ body {
 }
 
 #card {
-  height: 90vh;
   width: 90%;
   max-width: 500px;
   border-radius: 2rem;
@@ -105,8 +105,8 @@ body {
   padding: 1rem 0;
   border-radius: 1rem;
   margin: 1.5rem 0;
-  -webkit-box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+          box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
   font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
