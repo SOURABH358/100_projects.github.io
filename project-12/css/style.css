@@ -156,17 +156,17 @@ body {
   font-size: 1.25rem;
   letter-spacing: 0.8rem;
   text-transform: uppercase;
-  color: #a1a1a1;
+  color: black;
   font-weight: lighter;
   cursor: pointer;
 }
 
 .hero-section .hero-info-section .hero-info-slide .shopping:hover {
-  color: black;
+  color: #a1a1a1;
 }
 
 .hero-section .hero-info-section .hero-info-slide .shopping:hover svg path {
-  fill: black;
+  fill: #a1a1a1;
 }
 
 .hero-section .hero-info-section .hero-info-slide .shopping svg {
@@ -174,7 +174,7 @@ body {
 }
 
 .hero-section .hero-info-section .hero-info-slide .shopping svg path {
-  fill: #a1a1a1;
+  fill: black;
 }
 
 .about-section {
@@ -251,7 +251,7 @@ body {
     top: 0;
     left: -110%;
     width: 100vw;
-    padding: 4rem;
+    padding: 4rem 2rem;
     background: white;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -273,11 +273,6 @@ body {
   }
   .hero-section .hero-image-section .arrows {
     right: 0;
-  }
-  .hero-section .hero-info-section {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
   }
   .hero-section .hero-info-section .hero-info-slide {
     padding: 15% 3rem;

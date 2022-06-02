@@ -136,14 +136,14 @@ body {
                 font-size: 1.25rem;
                 letter-spacing: 0.8rem;
                 text-transform: uppercase;
-                color: $Dark-Gray;
+                color: $Black;
                 font-weight: lighter;
                 cursor: pointer;
                 &:hover{
-                    color: $Black;
+                    color: $Dark-Gray;
                     svg{
                         path{
-                            fill: $Black;
+                            fill: $Dark-Gray;
                         }
                     }
                 }
@@ -151,7 +151,7 @@ body {
                     margin: 0 1rem;
 
                     path {
-                        fill: $Dark-Gray;
+                        fill: $Black;
                     }
                     
                 }
@@ -226,7 +226,7 @@ body {
                     top: 0;
                     left: -110%;
                     width: 100vw;
-                    padding: 4rem;
+                    padding: 4rem 2rem;
                     background: $White;
                     align-items: center;
                     display: flex;
@@ -254,7 +254,6 @@ body {
         }
 
         .hero-info-section {
-            flex: 1;
             .hero-info-slide {
                 padding: 15% 3rem;
                 .hero-content{
@@ -271,6 +270,7 @@ body {
             width: 100%;
             img{
                 width: 100%;
+            
             }
         }
         .about-content{
