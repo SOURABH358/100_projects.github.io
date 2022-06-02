@@ -30,7 +30,7 @@ ArrowLeft.addEventListener('click',()=>{
         index--;
         document.querySelector('.hero-title').innerText = arr[index].title;
         document.querySelector('.hero-content').innerText = arr[index].content;
-        if(innerWidth>500){
+        if(innerWidth>375){
         document.querySelector('.hero-image-section').style.background = `url(${arr[index]["hero-image"]})`
 
         }
@@ -46,7 +46,7 @@ ArrowRight.addEventListener('click',()=>{
         index++;
         document.querySelector('.hero-title').innerText = arr[index].title;
         document.querySelector('.hero-content').innerText = arr[index].content;
-        if(innerWidth>500){
+        if(innerWidth>375){
         document.querySelector('.hero-image-section').style.background = `url(${arr[index]["hero-image"]})`
 
         }
