@@ -26,7 +26,9 @@ let hamburger = document.querySelector('.hamburger')
 let close = document.querySelector('.icon-close')
 
 ArrowLeft.addEventListener('click',()=>{
-    if(index>0){
+    if(index===0){
+        index=3;
+    }
         index--;
         document.querySelector('.hero-title').innerText = arr[index].title;
         document.querySelector('.hero-content').innerText = arr[index].content;
@@ -39,10 +41,11 @@ ArrowLeft.addEventListener('click',()=>{
 
         }
         document.querySelector('.hero-image-section').style.backgroundSize = '100% 100%'
-    }
 })
 ArrowRight.addEventListener('click',()=>{
-    if(index<2){
+        if(index===2){
+            index = -1;
+        }
         index++;
         document.querySelector('.hero-title').innerText = arr[index].title;
         document.querySelector('.hero-content').innerText = arr[index].content;
@@ -55,7 +58,7 @@ ArrowRight.addEventListener('click',()=>{
 
         }
         document.querySelector('.hero-image-section').style.backgroundSize = '100% 100%'
-    }
+    
 })
 hamburger.addEventListener('click',()=>{
     document.querySelector('.navigation').style.left = "0";
