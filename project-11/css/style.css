@@ -10,9 +10,10 @@
 body {
   width: 100%;
   min-height: 100vh;
-  background: url("../images/pattern-background-mobile.svg") no-repeat;
   background-color: #e0e8ff;
+  background-image: url("./images/pattern-background-mobile.svg");
   background-position: top;
+  background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,9 +142,10 @@ body {
 
 @media screen and (min-width: 376px) {
   body {
-    background: url("../images/pattern-background-desktop.svg") no-repeat;
+    background-color: #e0e8ff;
+    background-image: url("../images/pattern-background-desktop.svg");
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
   }
   #card .card-info {
     padding: 2rem 4rem;

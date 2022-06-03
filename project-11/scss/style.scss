@@ -15,9 +15,10 @@ $Dark-blue: hsl(223, 47%, 23%);
 body{
     width: 100%;
     min-height: 100vh;
-    background: url('../images/pattern-background-mobile.svg') no-repeat;
     background-color: $Pale-blue;
+    background-image: url('./images/pattern-background-mobile.svg');
     background-position: top;
+    background-repeat: no-repeat;
     background-size: contain;
     display: flex;
     align-items: center;
@@ -107,9 +108,10 @@ body{
 }
 @media screen and (min-width: 376px) {
     body{
-        background: url('../images/pattern-background-desktop.svg') no-repeat;
+        background-color: $Pale-blue;
+        background-image: url('../images/pattern-background-desktop.svg');
         background-size: cover;
-        background-position: center;
+        background-repeat: no-repeat;
     }
     #card{
         
