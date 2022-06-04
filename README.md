@@ -18,6 +18,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-10](#project-10)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-10/)              |Expense tracker chart component|
 |   [Project-11](#project-11)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-11/)              |Order Summary Component|
 |   [Project-12](#project-12)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-12/)              |Room Home Page|
+|   [Project-13](#project-13)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-13/)              |3-Column Card Component|
 
 ## Project-1
 >Food Menu Filter
@@ -163,7 +164,7 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     
 ### Links
 [Code](./project-11)  
-Solution Url - [Solution URL here](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-DKFunM18_X)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/order-summary-component-DKFunM18_X)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-11/)
 
 ## Project-12
@@ -178,8 +179,22 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     
 ### Links
 [Code](./project-12)  
-Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/expense-tracker-chart-component-Zb4VAxQC9H)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/room-home-page-7q8VPz8BWy)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-12/)
+
+## Project-13
+>3-Column Card Component
+
+In this project I have completed one of the challenges of Front end mentor. Challenge was to design a static 3-Column Card Component. Files and style guide were provided for the challenge below is my solution link.
+- **Built With**
+    - HTML  
+    - CSS
+    - SCSS
+    
+### Links
+[Code](./project-13)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/room-home-page-7q8VPz8BWy)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-13/)
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
 GitHub - [@Sourabh358](https://github.com/SOURABH358)  
