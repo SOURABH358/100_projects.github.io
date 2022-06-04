@@ -1,0 +1,96 @@
+$Bright-orange: hsl(31, 77%, 52%);
+$Dark-cyan: hsl(184, 100%, 22%);
+$Very-dark-cyan: hsl(179, 100%, 13%);
+$Transparent-white: hsla(0, 0%, 100%, 0.75);
+$Very-light-gray: hsl(0, 0%, 95%);
+
+:root{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    // font-family: 'Big Shoulders Display', cursive;
+}
+html:focus-within{
+    scroll-behavior: smooth;
+}
+*,::after,::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: $Transparent-white;  
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+.main-component{
+    width: 90%;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    color: $Very-light-gray;
+    .card{
+        padding: 4rem 3rem;
+
+        .card-title{
+            font-family: 'Big Shoulders Display', cursive;
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            margin: 2rem 0;
+        }
+        .card-content{
+            margin-top: 2rem;
+            margin-bottom: 6rem;
+            color: $Transparent-white;
+            font-weight: 400;
+            line-height: 1.75rem;
+        }
+        .card-button{
+            text-decoration: none;
+            background-color: $Very-light-gray;
+            border: 2px solid $Very-light-gray;
+            border-radius: 2rem;
+            padding: 0.75rem 1.5rem;
+            &:hover{
+                background: transparent;
+                color: $Very-light-gray;
+            }
+        }
+    }
+    .sedan-card{
+        background-color: $Bright-orange;
+        .card-button{
+            color: $Bright-orange;
+        }
+    }
+    .suv-card{
+        background-color: $Dark-cyan;
+        .card-button{
+            color: $Dark-cyan;
+        }
+    }
+    .luxury-card{
+        background-color: $Very-dark-cyan;
+        .card-button{
+            color: $Very-dark-cyan;
+        }
+    }
+}
+@media screen and (max-width: 376px) {
+    body{
+        padding: 3rem 0;
+    }
+    .main-component{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        .card{
+            .card-content{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

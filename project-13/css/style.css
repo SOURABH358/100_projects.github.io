@@ -1,0 +1,114 @@
+:root {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+*, ::after, ::before {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-component {
+  width: 90%;
+  max-width: 900px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  color: #f2f2f2;
+}
+
+.main-component .card {
+  padding: 4rem 3rem;
+}
+
+.main-component .card .card-title {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
+.main-component .card .card-content {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.main-component .card .card-button {
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  border-radius: 2rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.main-component .card .card-button:hover {
+  background: transparent;
+  color: #f2f2f2;
+}
+
+.main-component .sedan-card {
+  background-color: #e38826;
+}
+
+.main-component .sedan-card .card-button {
+  color: #e38826;
+}
+
+.main-component .suv-card {
+  background-color: #006970;
+}
+
+.main-component .suv-card .card-button {
+  color: #006970;
+}
+
+.main-component .luxury-card {
+  background-color: #004241;
+}
+
+.main-component .luxury-card .card-button {
+  color: #004241;
+}
+
+@media screen and (max-width: 376px) {
+  body {
+    padding: 3rem 0;
+  }
+  .main-component {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+  }
+  .main-component .card .card-content {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
