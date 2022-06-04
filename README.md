@@ -201,7 +201,7 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     
 ### Links
 [Code](./project-13)  
-Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/room-home-page-7q8VPz8BWy)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/3column-card-component-WUgAXxaOgK)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-13/)
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
