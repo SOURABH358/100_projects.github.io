@@ -202,7 +202,12 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 ### Links
 [Code](./project-13)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/3column-card-component-WUgAXxaOgK)  
-Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-13/)
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-13/)  
+
+<p align = "center">
+    <img src = "./Screenshot/screenshot-13.jpg"/>
+</p>  
+
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
 GitHub - [@Sourabh358](https://github.com/SOURABH358)  
