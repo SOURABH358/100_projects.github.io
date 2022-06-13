@@ -19,7 +19,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-11](#project-11)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-11/)              |Order Summary Component|
 |   [Project-12](#project-12)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-12/)              |Room Home Page|
 |   [Project-13](#project-13)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-13/)              |3-Column Card Component|
-
+|   [Project-14](#project-14)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-14/)              |profile-card-component|
 ## Project-1
 >Food Menu Filter
 
@@ -203,6 +203,24 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 [Code](./project-13)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/3column-card-component-WUgAXxaOgK)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-13/)  
+
+<p align = "center">
+    <img src = "./Screenshot/screenshot-13.jpg"/>
+</p>  
+
+## Project-14
+>Profile-Card-Component
+
+In this project I have completed one of the challenges of Front end mentor. Challenge was to design a static Profile Card Component. Files and style guide were provided for the challenge below is my solution link.
+
+- **Built With**
+    - Semantic HTML5 markup
+    - tailwind css
+    
+### Links
+[Code](./project-14)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/3column-card-component-WUgAXxaOgK)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-14/)  
 
 <p align = "center">
     <img src = "./Screenshot/screenshot-13.jpg"/>
