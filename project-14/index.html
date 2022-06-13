@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>tailwind project</title>
+</head>
+
+<body class="w-full h-[100vh] overflow-hidden bg-[#19a2ae] flex items-center justify-center">
+    <div class="absolute -top-[90%] -left-[200%] lg:-top-[70%] lg:-left-[20%] lg:w-full bg-no-repeat z-10"><img src="./images/bg-pattern-top.svg"
+            alt="bg-pattern-top" /></div>
+    <div class="absolute -bottom-[90%] -right-[200%] lg:-bottom-[80%] lg:-right-[50%] lg:w-full bg-no-repeat z-10"><img
+            src="./images/bg-pattern-bottom.svg" alt="bg-pattern-bottom" /></div>
+    <main id="main" class="w-[90%] lg:w-[350px] bg-white rounded-[0.75rem] overflow-hidden z-20 shadow-xl">
+        <header class="w-full relative">
+            <img src="./images/bg-pattern-card.svg" alt="bg-pattern-card" />
+            <img class="absolute bottom-0 right-1/2 translate-x-1/2 translate-y-1/2 border-white border-[0.5rem] rounded-[50%]"
+                src="./images/image-victor.jpg" alt="image-victor" />
+        </header>
+        <section id="info" class="w-full pt-[4rem] pb-[2rem] border-b-[1px] border-[#969696]">
+            <h1 class="font-bold text-[#2d3248] text-[1.25rem] text-center">Victor Crest <span class="text-[#6a6f81]">26</span></h1>
+            <p class = "text-center text-[#6a6f81] mt-[0.5rem]">London</p>
+        </section>
+        <footer id = "footer" class = "flex justify-center gap-[2rem] py-[1.5rem]">
+            <div class = "flex flex-col items-center">
+                <h1 class = "font-bold text-[1.25rem] text-[#2d3248]">80K</h1>
+                <p class = "text-[0.7rem] text-[#6a6f81]">Followers</p>
+            </div>
+            <div class = "flex flex-col items-center">
+                <h1 class = "font-bold text-[1.25rem] text-[#2d3248]">803K</h1>
+                <p class = "text-[0.7rem] text-[#6a6f81]">Likes</p>
+            </div>
+            <div class = "flex flex-col items-center">
+                <h1 class = "font-bold text-[1.25rem] text-[#2d3248]">1.4K</h1>
+                <p class = "text-[0.7rem] text-[#6a6f81]">Photos</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
