@@ -223,7 +223,7 @@ Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/3colu
 Live Website - [Live Website URL here](https://timely-torte-74a5d9.netlify.app/)  
 
 <p align = "center">
-    <img src = "./Screenshot/screenshot-13.jpg"/>
+    <img src = "./Screenshot/screenshot-14.jpg"/>
 </p>  
 
 ## Author
