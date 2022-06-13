@@ -19,7 +19,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-11](#project-11)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-11/)              |Order Summary Component|
 |   [Project-12](#project-12)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-12/)              |Room Home Page|
 |   [Project-13](#project-13)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-13/)              |3-Column Card Component|
-|   [Project-14](#project-14)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-14/)              |profile-card-component|
+|   [Project-14](#project-14)   |   [live site](https://timely-torte-74a5d9.netlify.app/)                                     |profile-card-component|
 ## Project-1
 >Food Menu Filter
 
@@ -220,7 +220,7 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 ### Links
 [Code](./project-14)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/3column-card-component-WUgAXxaOgK)  
-Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-14/)  
+Live Website - [Live Website URL here](https://timely-torte-74a5d9.netlify.app/)  
 
 <p align = "center">
     <img src = "./Screenshot/screenshot-13.jpg"/>
