@@ -55,12 +55,20 @@ You can check my code for the [project](./project-2) in the repo. **Here check t
 >Responsive Tabs   
 
 In this project I have made responsive tabs, which switch using javascript. It is a very basic project and will help beginners learning web development.
-## Built With
-    - HTML
-    - CSS
-    - JAVASCRIPT
+
+## Screenshot
+
+<p align = "center">
+    <img src = "./Screenshot/screenshot-3.jpg"/>
+</p>  
+## Built With  
+- HTML
+- CSS
+- JAVASCRIPT
     
-You can check my code for the [project](./project-3) in the repo. **Here check the [live](https://sourabh358.github.io/100_projects.github.io/project-3/index.html) demo**
+### Links  
+[Code](./project-3)  
+Live -  [Live website URL here](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)
 ## Project-4
 >Calculator App
 
@@ -73,7 +81,19 @@ In this project I have made a basic calculator App. It is in completion of front
 - Mobile first Workflow
 - CSS Grid
 - CSS Flexbox
-### Links
+## Screenshot
+<p align = "center">
+    <img src = "./Screenshot/screenshot-4-1.jpg"/>
+</p>
+<p align = "center">
+    <img src = "./Screenshot/screenshot-4-2.jpg"/>
+</p>
+<p align = "center">
+    <img src = "./Screenshot/screenshot-4-3.jpg"/>
+</p>  
+
+
+### Links  
 [Code](./project-4)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/calculator-app-M5y3LNQ0r)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-4/)
