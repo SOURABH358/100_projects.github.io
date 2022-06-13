@@ -219,7 +219,7 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     
 ### Links
 [Code](./project-14)  
-Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/3column-card-component-WUgAXxaOgK)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/profile-card-component-15N9uwqTLm)  
 Live Website - [Live Website URL here](https://timely-torte-74a5d9.netlify.app/)  
 
 <p align = "center">
