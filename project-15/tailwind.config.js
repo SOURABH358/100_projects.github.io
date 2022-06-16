@@ -2,7 +2,8 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    fontSize: {
+      base: '18px'
+    }
+  }
 }
