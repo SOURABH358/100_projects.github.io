@@ -22,7 +22,8 @@ let FeatureTab = document.querySelector('#features-tab ul')
 let FeaturesTitle = document.getElementById('features-info-title')
 let FeaturesContent = document.getElementById('features-info-content')
 let FeaturesImage = document.querySelector('#features-info-image img')
-console.log(FeaturesImage.src)
+let Faq = document.querySelectorAll('#faqs li')
+
 ham.addEventListener('click',()=>{
     tabs.classList.remove('left-full')
     tabs.classList.add('left-0')
@@ -38,3 +39,10 @@ FeatureTab.addEventListener('click',(e)=>{
     FeaturesContent.innerText = features[e.target.id-1]['content']
     FeaturesImage.src = features[e.target.id-1]['image'];
 })
+Faq.forEach(element => {
+    element.addEventListener('click',(e)=>{
+        e.currentTarget.querySelector('.answer').classList.toggle('hidden')
+        e.currentTarget.querySelector('.arrow-up').classList.toggle('hidden')
+        e.currentTarget.querySelector('.arrow-down').classList.toggle('hidden')
+    })
+});
