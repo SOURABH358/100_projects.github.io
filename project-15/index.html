@@ -15,20 +15,39 @@
 </head>
 
 <body>
-    <header class="flex justify-between">
-        <section class="title">
+    <header class="sm:flex items-center justify-between">
+        <section class="title flex justify-between py-[3rem] px-[2rem]">
             <div class="h-[30px] w-[150px] bg-[url('./images/logo-bookmark.svg')] bg-no-repeat"></div>
+            <div class="sm:hidden cursor-pointer" id = "ham"><img src="./images/icon-hamburger.svg" alt="icon-hamburger" /></div>
         </section>
-        <div class = "hidden"><img src = "./images/icon-hamburger.svg"/></div>
-        <nav class = "flex flex-col">
-            <div class = "tab-title">
-                <div><img src = "./images/logo-bookmark-2.svg"/></div>
+        <nav id = "tabs" class="fixed top-0 left-full flex flex-col w-full h-screen bg-Very-Dark-Blue px-[2rem] -right-full sm:flex-row sm:bg-white sm:relative sm:left-0 sm:w-auto sm:h-fit">
+            <div id="tab-title"
+                class="flex justify-between items-center pt-[2rem] pb-[3rem] border-b-[1px] border-b-Grayish-Blue sm:hidden">
+                <div><img src="./images/logo-bookmark-2.svg" alt="logo-bookmark-2" /></div>
+                <div id = "icon-close" class="cursor-pointer"><img src="./images/icon-close.svg" alt="icon-close" /></div>
             </div>
-            <ul class="flex">
-                <li></li>
+            <ul class="flex flex-col sm:flex-row sm:gap-10">
+                <li
+                    class="w-full text-center py-[1.25rem] border-b-[1px] border-Grayish-Blue text-white text-[1.4rem] tracking-widest sm:text-Very-Dark-Blue">
+                    FEATURES</li>
+                <li
+                    class="w-full text-center py-[1.25rem] border-b-[1px] border-Grayish-Blue text-white text-[1.4rem] tracking-widest sm:text-Very-Dark-Blue">
+                    PRICING</li>
+                <li
+                    class="w-full text-center py-[1.25rem] border-b-[1px] border-Grayish-Blue text-white text-[1.4rem] tracking-widest sm:text-Very-Dark-Blue">
+                    CONTACT</li>
+                <li
+                    class="w-full text-center py-[0.75rem] border-white border-2 text-[1.3rem] mt-[1.5rem] font-bold text-white uppercase tracking-widest rounded-md cursor-pointer sm:text-Very-Dark-Blue sm:border-Very-Dark-Blue sm:px-[1rem]">
+                    Log In</li>
             </ul>
+            <div id = "social" class = "absolute bottom-[3rem] left-0 flex w-full items-center justify-center gap-14 sm:hidden">
+                <img src = "./images/icon-facebook.svg" alt = "icon-facebook"/>
+                <img src = "./images/icon-twitter.svg" alt = "icon-twitter"/>
+            </div>
         </nav>
     </header>
+
+    <script src = "./script.js"></script>
 </body>
 
 </html>
