@@ -22,7 +22,7 @@
                     alt="icon-hamburger" /></div>
         </section>
         <nav id="tabs"
-            class="fixed top-0 left-full flex flex-col w-full h-screen bg-Very-Dark-Blue px-[2rem] -right-full sm:flex-row sm:bg-white sm:relative sm:left-0 sm:w-auto sm:h-fit">
+            class="fixed z-10 top-0 left-full flex flex-col w-full h-screen bg-Very-Dark-Blue px-[2rem] -right-full sm:flex-row sm:bg-white sm:relative sm:left-0 sm:w-auto sm:h-fit">
             <div id="tab-title"
                 class="flex justify-between items-center pt-[2rem] pb-[3rem] border-b-[1px] border-b-Grayish-Blue sm:hidden">
                 <div><img src="./images/logo-bookmark-2.svg" alt="logo-bookmark-2" /></div>
@@ -49,19 +49,73 @@
             </div>
         </nav>
     </header>
-    <section id="hero" class=" box-border flex flex-col-reverse sm:flex-row sm:w-[80%] sm:mx-auto sm:gap-[10%] sm:items-center sm:mt-10">
+    <section id="hero"
+        class=" box-border flex flex-col-reverse sm:flex-row sm:w-[80%] sm:mx-auto sm:gap-[10%] sm:items-center sm:mt-10">
         <div id="hero-content" class="text-center w-[80%] mx-auto mt-6 sm:text-left sm:flex-[40%] sm:mt-0">
-            <h1 class = "font-medium text-[1.75rem] sm:text-[2.5rem] my-[1rem] sm:mt-0">A Simple Bookmark Manager</h1>
-            <p class = "text-Grayish-Blue leading-7">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your
+            <h1 class="font-medium text-[1.75rem] sm:text-[2.5rem] my-[1rem] sm:mt-0">A Simple Bookmark Manager</h1>
+            <p class="text-Grayish-Blue leading-6 text-[0.75rem] sm:text-[1rem]">A clean and simple interface to
+                organize your favourite websites.
+                Open a new browser tab and see your
                 sites load instantly. Try it for free.</p>
-            <div id = "buttons" class = "flex gap-2 mt-8 sm:gap-4">
-                <a href = "#" class = "decoration-none text-white px-[0.75rem] py-[0.75rem] sm:px-[1rem] sm:py-[0.5rem] bg-Soft-Blue rounded-md shadow-lg">Get it on Chrome</a>
-                <a href = "#" class = "decoration-none text-Very-Dark-Blue px-[0.75rem] py-[0.75rem] sm:px-[1rem] sm:py-[0.5rem] bg-[#eee] rounded-md shadow-lg">Get it on Firefox</a>
+            <div id="buttons" class="flex gap-4 mt-8 justify-center sm:justify-start">
+                <a href="#"
+                    class="decoration-none text-[0.75rem] sm:text-[1rem] text-white px-[0.75rem] py-[0.75rem] sm:px-[1rem] sm:py-[0.5rem] bg-Soft-Blue rounded-md shadow-lg flex-[50%] sm:flex-initial">Get
+                    it on Chrome</a>
+                <a href="#"
+                    class="decoration-none text-[0.75rem] sm:text-[1rem] text-Very-Dark-Blue px-[0.75rem] py-[0.75rem] sm:px-[1rem] sm:py-[0.5rem] bg-[#eee] rounded-md shadow-lg flex-[50%] sm:flex-initial">Get
+                    it on Firefox</a>
             </div>
         </div>
         <div class="relative">
             <img src="./images/illustration-hero.svg" alt="illustration-hero" class="w-full sm:ml-16">
-            <div class="absolute left-[20%] top-[25%] sm:left-[40%] sm:top-[30%] w-full h-[75%] bg-Soft-Blue rounded-bl-[25%] sm:rounded-bl-[30%] -z-10"></div>
+            <div
+                class="absolute left-[20%] top-[25%] sm:left-[40%] sm:top-[30%] w-full h-[75%] bg-Soft-Blue rounded-bl-[25%] sm:rounded-bl-[30%] -z-10">
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------FEATURES-------------------------------- -->
+    <section id="features" class="w-[80%] mx-auto text-center mt-[8rem] box-border">
+        <h2 id="features title" class="font-medium sm:text-[2rem] text-[1.25rem] capitalize my-[1rem]">features</h2>
+        <p class="text-Grayish-Blue text-[0.75rem] sm:text-[1rem] capitalize leading-7 sm:w-[40%] sm:mx-auto">our aim is to make it quick and
+            easy for you to access your favourite websites. Your bookmarks sync between
+            your devices so you can access them on the go.</p>
+        <div id="features-tab" class="my-10 sm:mt-[4rem] mb-[3rem] sm:mb-[6rem] sm:w-[70%] sm:mx-auto">
+            <ul class="flex flex-col sm:flex-row ">
+                <li  class="w-full border-Grayish-Blue border-b-[1px]  border-t-[1px] sm:border-t-0">
+                <p id="1"
+                        class="capitalize text-Grayish-Blue hover:text-Very-Dark-Blue py-[0.75rem] hover:border-b-[6px] border-Soft-Red cursor-pointer sm:py-[2rem]">
+                        Simple bookmarking</p>
+                </li>
+                <li  class="w-full border-Grayish-Blue border-b-[1px]">
+                    <p id="2"
+                        class="capitalize text-Grayish-Blue hover:text-Very-Dark-Blue py-[0.75rem] hover:border-b-[6px] border-Soft-Red cursor-pointer sm:py-[2rem]">
+                        speedy searching</p>
+                </li>
+                <li class="w-full border-Grayish-Blue border-b-[1px]">
+                    <p  id="3"
+                        class="capitalize text-Grayish-Blue hover:text-Very-Dark-Blue py-[0.75rem] hover:border-b-[6px] border-Soft-Red cursor-pointer sm:py-[2rem]">
+                        easy sharing</p>
+                </li>
+            </ul>
+        </div>
+        <div id="features-info" class="flex flex-col-reverse sm:flex-row-reverse sm:items-center gap-[10%]">
+            <div class="mt-[8rem] mb-[3rem] sm:text-left sm:mt-0 sm:basis-[40%]">
+                <h2 id="features-info-title" class="font-medium text-[1.25rem] sm:text-[2rem] mb-2">Bookmark in one
+                    click
+                </h2>
+                <p id="features-info-content" class="text-Grayish-Blue text-[0.75rem] sm:text-[1rem] l leading-6 sm:leading-7">
+                    Organize
+                    your bookmarks however you like. Our simple drag-and-drop interface
+                    gives you complete control over how you manage your favourite sites.</p>
+                <div class = "hidden sm:block capitalize bg-Soft-Blue py-2 px-4 w-fit text-white text-[0.8rem] mt-6 rounded-md cursor-pointer shadow-md">more info</div>
+            </div>
+            <div id="features-info-image" class="relative sm:basis-[50%]">
+                <img src="./images/illustration-features-tab-1.svg" alt="illustration-features-tab-1" class="w-full"/>
+                <div
+                    class="absolute -left-[20%] top-[20%] sm:-left-[30%] sm:top-[20%] w-full h-[100%] sm:w-[110%] bg-Soft-Blue rounded-br-[35%] sm:rounded-br-[30%] -z-10">
+                </div>
+            </div>
         </div>
     </section>
     <script src="./script.js"></script>
