@@ -1,18 +1,22 @@
+import Tab1 from "./images/illustration-features-tab-1.svg";
+import Tab2 from "./images/illustration-features-tab-2.svg";
+import Tab3 from "./images/illustration-features-tab-3.svg";
+
 let features = [
     {
         title: 'Bookmark in one click',
         content: 'Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.',
-        image: './images/illustration-features-tab-1.svg'
+        image: Tab1
     },
     {
         title: 'Intelligent search',
         content: 'Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.',
-        image: './images/illustration-features-tab-2.svg'
+        image: Tab2
     },
     {
         title: 'Share your bookmarks',
         content: 'Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.',
-        image: './images/illustration-features-tab-3.svg'
+        image: Tab3
     }
 ]
 let ham = document.getElementById('ham')
