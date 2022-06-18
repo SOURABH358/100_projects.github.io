@@ -12,5 +12,8 @@ module.exports = {
       'Soft-Red': 'hsl(0, 94%, 66%)',
       'white':'#fff'
     }
+  },
+  variants:{
+    fill:['hover','focus']
   }
 }

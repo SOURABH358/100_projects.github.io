@@ -35,17 +35,21 @@ Close.addEventListener('click', () => {
 })
 
 FeatureTab.addEventListener('click', (e) => {
+    FeatureTab.querySelectorAll('li p').forEach(element=>{
+        element.classList.add('border-none')
+    })
+    e.target.classList.remove('border-none')
     FeaturesTitle.innerText = features[e.target.id - 1]['title']
     FeaturesContent.innerText = features[e.target.id - 1]['content']
     FeaturesImage.src = features[e.target.id - 1]['image'];
 })
 Faq.forEach(element => {
     element.addEventListener('click', (e) => {
-        Faq.forEach((item)=>{
-            item.querySelector('.answer').classList.add('hidden')
-            item.querySelector('.arrow-up').classList.add('hidden')
-            item.querySelector('.arrow-down').classList.remove('hidden')
-        })
+        // Faq.forEach((item)=>{
+        //     item.querySelector('.answer').classList.add('hidden')
+        //     item.querySelector('.arrow-up').classList.remove('hidden')
+        //     item.querySelector('.arrow-down').classList.add('hidden')
+        // })
         e.currentTarget.querySelector('.answer').classList.toggle('hidden')
         e.currentTarget.querySelector('.arrow-up').classList.toggle('hidden')
         e.currentTarget.querySelector('.arrow-down').classList.toggle('hidden')
