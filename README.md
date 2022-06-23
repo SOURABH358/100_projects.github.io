@@ -279,7 +279,7 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     
 ### Links
 [Code](./project-16)  
-Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/bookmark-landing-page-4Txu18kFoA)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/time-tracking-dashboard-SfPtQnA769)  
 Live Website - [Live Website URL here](https://musical-gelato-07fe55.netlify.app/)  
 
 <p align = "center">
