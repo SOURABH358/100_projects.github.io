@@ -283,8 +283,11 @@ Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/time-
 Live Website - [Live Website URL here](https://musical-gelato-07fe55.netlify.app/)  
 
 <p align = "center">
-    <img src = "./Screenshot/screenshot-16.jpg"/>
-</p>  
+    <img src = "./Screenshot/screenshot-16-1.jpg"/>
+</p> 
+<p align = "center">
+    <img src = "./Screenshot/screenshot-16-2.jpg"/>
+</p> 
 
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
