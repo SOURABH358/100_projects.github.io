@@ -3,7 +3,7 @@ module.exports = {
   content: ["*"],
   theme: {
         fontFamily:{
-          'Rubik': ['Rubik','sans-serif']
+          'Rubik': ['Rubik']
         },
         fontSize:{
           base:'18px'

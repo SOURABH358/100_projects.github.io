@@ -10,32 +10,36 @@
     <title>Time Tracking dashboard</title>
 </head>
 
-<body class="w-full h-[100vh] bg-Verydarkblue grid items-center justify-items-center py-[5rem] box-border">
-    <header class="w-[90%]  grid grid-cols-1 grid-flow-row gap-8 grid-rows-7-[repeat">
-        <div id="user" class="bg-Dark-blue rounded-xl grid grid-rows-[8rem_5rem]">
-            <div class="grid grid-cols-[1fr_3fr] bg-Blue items-center rounded-xl">
-                <div class="w-[4rem] place-self-center">
+<body class="w-full h-[100vh] bg-Verydarkblue grid items-center justify-items-center py-[5rem] box-border font-Rubik sm:py-0">
+    <header class="w-[90%] sm:w-[80%]  grid grid-cols-1 grid-flow-row gap-8 grid-rows-7 sm:grid-cols-4 sm:grid-rows-2">
+        <div id="user" class="bg-Dark-blue rounded-xl grid grid-rows-[8rem_5rem] row-span-2 sm:grid-rows-[2fr_1fr]">
+            <div class="grid grid-cols-[1fr_3fr] sm:grid-cols-1 sm:grid-rows-[2fr_3fr] bg-Blue items-center rounded-xl px-8">
+                <div class="w-[4rem] sm:w-[6rem] place-self-center sm:justify-self-start">
                     <img class="w-full border-[3px] border-white rounded-[50%]" src="./images/image-jeremy.png" alt="image-jeremy" />
                 </div>
-                <div class="">
-                    <p class="text-[1rem] text-Desaturated-blue font-medium">Report for</p>
-                    <h1 class="text-[1.8rem] text-Pale-Blue">Jeremy Robson</h1>
+                <div class="sm:self-start">
+                    <p class="text-[1rem] text-Pale-Blue font-medium">Report for</p>
+                    <h1 class="text-[1.5rem] text-white sm:text-[3rem] font-light sm:leading-[3rem]">Jeremy Robson</h1>
                 </div>
             </div>
-            <div class = "grid grid-cols-3 place-items-center">
+            <div class = "grid grid-cols-3 place-items-center sm:grid-cols-1 sm:justify-items-start px-8">
                 <p class="text-Pale-Blue text-[1.2rem] font-medium">Daily</p>
                 <p class="text-white text-[1.2rem] font-medium">Weekly</p>
                 <p class="text-Pale-Blue text-[1.2rem] font-medium ">Monthly</p>
             </div>
         </div>
-        <div id = "work" class = "bg-Very-Light-red h-[10rem] grid grid-rows-[1fr_3fr] rounded-xl overflow-hidden">
+        <div id = "work" class = "bg-Very-Light-red h-[18rem] grid grid-rows-[1fr_5fr] rounded-xl overflow-hidden">
             <div class = "relative">
                 <img src = "./images/icon-work.svg" alt = "./icon-work" class = "absolute right-4 -top-2.5 z-10"/>
             </div>
-            <div class="bg-Dark-blue rounded-t-xl z-20">
-
+            <div class="bg-Dark-blue rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
+                <h2 class="justify-self-start self-end font-semibold text-[1.2rem] sm:tex-[1.5rem] sm:font-medium text-white">Work</h2>
+                <img class = "justify-self-end self-end" src = "./images/icon-ellipsis.svg" alt = "icon-ellipsis"/>
+                <p class="justify-self-start place-self-center text-[2rem] sm:text-[4rem] text-white font-thin sm:col-span-2 sm:justify-self-start">32hrs</p>
+                <p class="justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week-36hrs</p>
             </div>
         </div>
+        
         <!-- 
         <div id = "play" class = "bg-Soft-blue"><img src = "./images/image-jeremy.png" alt = "image-jeremy"/></div>
         <div id = "study" class = "bg-Soft-blue"><img src = "./images/image-jeremy.png" alt = "image-jeremy"/></div>
