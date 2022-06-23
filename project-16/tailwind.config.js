@@ -18,7 +18,7 @@ module.exports = {
         'Soft-orange': 'hsl(43, 84%, 65%)',
         'Verydarkblue': 'hsl(226, 43%, 10%)',
         'Dark-blue': 'hsl(235, 46%, 20%)',
-        'Desaturated-blue': 'hsl(235, 45%, 61%)',
+        'Desaturated-blue': 'hsl(235, 45%, 40%)',
         'Pale-Blue': 'hsl(236, 100%, 87%)',
         'white':'#fff'
       },
