@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////l9Pff8fS54ein2eOn2eL9/v684unr9vj7/f7c8PSl2eKHzNil2OLv+Prz+vue1eB3xdOq2uPm9Pf29/vy8/n3/Py13+eEyteZ097P6u/2+/zByeKOm8r8/f7u+Pq+4+qOz9uU0dzo9fjb4O5meLbh5fH0+vvV7fHx+fv8/P2Gk8Wbps+44eim2eLW2+xkdrXO1Oit3OWttthperja3u7u+Pn6+/2hrNJneLfFy+P7+/23v92IlcbN0ufx8/nj5/Kbp9BsfbltfrqAj8ORnsvg5PD+/v/v8ffQ1em0vduqtNfn6vS/61TcAAAAHHRSTlMAAAQqbK3Z8v0DN5ff+xqJ6jbC/kHBAjjp3qz8qSKHsgAAAAFiS0dEAf8CLd4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiChMPAx5FOtlkAAABSUlEQVQ4y4WTZ2OCMBCGc4IMEXAPjB10771t7dLuXbv3/v+/oNigIYjN+4HcJU9CcgMhVxASxLAkK4oshUUhBIgVqBEtqmNXelSLqF4EwDBjmFHMNADoejyRxD4lE/EGAZCScICkFCGc/YHrDkHOACON2yhtOABkTNxWZgYQZHPeqWKH18tlAakas6ezi3E1FQl5Fuhm3LyARD0AsIs9vSSmIrJwC9DXPzA4NEx8C0ktwMjo2PiE3YgFkokxOdUEpmdm5+YXXEBGCjEWl5bpHVZKq2tlMq+gAjHWNza9r9jarpD5QuMX1Z3dv3Fvn72T3LzkweFRfSgd+xJGn3lyeuZ8K+csYNFAXVzWrqr+bDmBoqG+vqnd3t3bDOCE2push8en55fXNzZZTLrfPz6/vn+oX083t2C4JccvWm7Z8xuH33r85v2v/X8Bp/FiyVLnL/0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTAtMTlUMTU6MDM6MzArMDI6MDCzEaEaAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEwLTE5VDE1OjAzOjMwKzAyOjAwwkwZpgAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==" type="image/x-icon">
+    <title>Time Tracking dashboard</title>
+  <link rel="stylesheet" href="/assets/index.b4c1b450.css">
+</head>
+
+<body class="w-full h-[100vh] bg-Verydarkblue grid items-center justify-items-center box-border font-Rubik sm:py-0">
+    <header class="w-[90%] sm:w-[80%] my-[5rem] sm:my-0 grid grid-cols-1 grid-flow-row gap-8 grid-rows-7 sm:grid-cols-4 sm:grid-rows-2">
+        <div id="user" class="bg-Dark-blue rounded-xl grid grid-rows-[10rem_5rem] row-span-2 sm:grid-rows-[2fr_1fr]">
+            <div class="grid grid-cols-[1fr_2fr] sm:grid-cols-1 sm:grid-rows-[2fr_3fr] bg-Blue items-center rounded-xl px-8">
+                <div class="w-[5.5rem] sm:w-[5.5rem] place-self-center sm:justify-self-start">
+                    <img class="w-full border-[4px] border-white rounded-[50%]" src="/assets/image-jeremy.97a6932a.png" alt="image-jeremy" />
+                </div>
+                <div class="sm:self-start">
+                    <p class="text-[1rem] text-Pale-Blue font-medium">Report for</p>
+                    <h1 class="text-[1.5rem] text-white sm:text-[2.5rem] font-light sm:leading-[3rem]">Jeremy Robson</h1>
+                </div>
+            </div>
+            <div id = "timeline" class = "grid grid-cols-3 place-items-center sm:grid-cols-1 sm:justify-items-start px-8">
+                <p id = "daily" class="text-Pale-Blue text-[1.2rem] font-medium sm:self-end cursor-pointer">Daily</p>
+                <p id = "weekly" class="text-white text-[1.2rem] font-medium cursor-pointer">Weekly</p>
+                <p id = "monthly" class="text-Pale-Blue text-[1.2rem] font-medium sm:self-start cursor-pointer">Monthly</p>
+            </div>
+        </div>
+        <div id = "work" class = "bg-Very-Light-red h-[10rem] sm:h-[16rem] grid grid-rows-[1fr_3fr] sm:grid-rows-[1fr_5fr] rounded-xl overflow-hidden">
+            <div class = "relative">
+                <img src = "/assets/icon-work.48189dc5.svg" alt = "./icon-work" class = "absolute right-4 -top-2.5 z-10"/>
+            </div>
+            <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Work</h2>
+                <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">32hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 36hrs</p>
+            </div>
+        </div>
+        
+        <div id = "play" class = "bg-Soft-blue h-[10rem] sm:h-[16rem] grid grid-rows-[1fr_3fr] sm:grid-rows-[1fr_5fr] rounded-xl overflow-hidden">
+            <div class = "relative">
+                <img src = "/assets/icon-play.ab43b1ec.svg" alt = "./icon-play" class = "absolute right-4 -top-2.5 z-10"/>
+            </div>
+            <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Play</h2>
+                <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">10hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 8hrs</p>
+            </div>
+        </div>
+    
+        <div id = "study" class = "bg-Light-red h-[10rem] sm:h-[16rem] grid grid-rows-[1fr_3fr] sm:grid-rows-[1fr_5fr] rounded-xl overflow-hidden">
+            <div class = "relative">
+                <img src = "/assets/icon-study.6c7815aa.svg" alt = "./icon-study" class = "absolute right-4 -top-2.5 z-10"/>
+            </div>
+            <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Study</h2>
+                <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">4hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 7hrs</p>
+            </div>
+        </div>
+
+        <div id = "exercise" class = "bg-Lime-green h-[10rem] sm:h-[16rem] grid grid-rows-[1fr_3fr] sm:grid-rows-[1fr_5fr] rounded-xl overflow-hidden">
+            <div class = "relative">
+                <img src = "/assets/icon-exercise.4a274210.svg" alt = "./icon-exercise" class = "absolute right-4 -top-2.5 z-10"/>
+            </div>
+            <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Exercise</h2>
+                <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">4hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 5hrs</p>
+            </div>
+        </div>
+
+        <div id = "social" class = "bg-Violet h-[10rem] sm:h-[16rem] grid grid-rows-[1fr_3fr] sm:grid-rows-[1fr_5fr] rounded-xl overflow-hidden">
+            <div class = "relative">
+                <img src = "/assets/icon-social.ad1533da.svg" alt = "./icon-social" class = "absolute right-4 -top-2.5 z-10"/>
+            </div>
+            <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Social</h2>
+                <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">5hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 10hrs</p>
+            </div>
+        </div>        
+
+        <div id = "self-care" class = "bg-Soft-orange h-[10rem] sm:h-[16rem] grid grid-rows-[1fr_3fr] sm:grid-rows-[1fr_5fr] rounded-xl overflow-hidden">
+            <div class = "relative">
+                <img src = "/assets/icon-self-care.4de9f24f.svg" alt = "./icon-self-care" class = "absolute right-4 -top-2.5 z-10"/>
+            </div>
+            <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Self Care</h2>
+                <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">2hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 2hrs</p>
+            </div>
+        </div>
+        
+    </header>
+
+    <script src = "./script.js"></script>
+</body>
+
+</html>
