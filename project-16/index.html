@@ -11,24 +11,32 @@
 </head>
 
 <body class="w-full h-[100vh] bg-Verydarkblue grid items-center justify-items-center py-[5rem] box-border">
-    <header class="w-[90%]  grid grid-cols-1 rid-flow-col">
-        <div id="user" class="bg-Dark-blue rounded-xl">
-            <div class="grid grid-cols-[1fr_2fr] bg-Blue py-[3rem] px-[2rem] rounded-xl">
-                <div class="w-[6rem] border-4 border-white rounded-full">
-                    <img class="w-full" src="./images/image-jeremy.png" alt="image-jeremy" />
+    <header class="w-[90%]  grid grid-cols-1 grid-flow-row gap-8 grid-rows-7-[repeat">
+        <div id="user" class="bg-Dark-blue rounded-xl grid grid-rows-[8rem_5rem]">
+            <div class="grid grid-cols-[1fr_3fr] bg-Blue items-center rounded-xl">
+                <div class="w-[4rem] place-self-center">
+                    <img class="w-full border-[3px] border-white rounded-[50%]" src="./images/image-jeremy.png" alt="image-jeremy" />
                 </div>
-                <div class="self-center">
-                    <p class="text-[1.2rem] text-Desaturated-blue">Report for</p>
-                    <h1 class="text-[2rem] text-Pale-Blue">Jeremy Robson</h1>
+                <div class="">
+                    <p class="text-[1rem] text-Desaturated-blue font-medium">Report for</p>
+                    <h1 class="text-[1.8rem] text-Pale-Blue">Jeremy Robson</h1>
                 </div>
             </div>
-            <div class = "grid grid-cols-3 place-items-center py-6">
-                <p class="text-white text-[1.5rem] font-medium">Daily</p>
-                <p class="text-Pale-Blue text-[1.5rem] font-medium">Weekly</p>
-                <p class="text-Pale-Blue text-[1.5rem] font-medium ">Monthly</p>
+            <div class = "grid grid-cols-3 place-items-center">
+                <p class="text-Pale-Blue text-[1.2rem] font-medium">Daily</p>
+                <p class="text-white text-[1.2rem] font-medium">Weekly</p>
+                <p class="text-Pale-Blue text-[1.2rem] font-medium ">Monthly</p>
             </div>
         </div>
-        <!-- <div id = "work" class = "bg-Soft-blue"><img src = "./images/image-jeremy.png" alt = "image-jeremy"/></div>
+        <div id = "work" class = "bg-Very-Light-red h-[10rem] grid grid-rows-[1fr_3fr] rounded-xl overflow-hidden">
+            <div class = "relative">
+                <img src = "./images/icon-work.svg" alt = "./icon-work" class = "absolute right-4 -top-2.5 z-10"/>
+            </div>
+            <div class="bg-Dark-blue rounded-t-xl z-20">
+
+            </div>
+        </div>
+        <!-- 
         <div id = "play" class = "bg-Soft-blue"><img src = "./images/image-jeremy.png" alt = "image-jeremy"/></div>
         <div id = "study" class = "bg-Soft-blue"><img src = "./images/image-jeremy.png" alt = "image-jeremy"/></div>
         <div id = "exercise" class = "bg-Soft-blue"><img src = "./images/image-jeremy.png" alt = "image-jeremy"/></div>
