@@ -10,19 +10,19 @@
     <title>Time Tracking dashboard</title>
 </head>
 
-<body class="w-full h-[100vh] bg-Verydarkblue grid items-center justify-items-center py-[5rem] box-border font-Rubik sm:py-0">
-    <header class="w-[90%] sm:w-[80%]  grid grid-cols-1 grid-flow-row gap-8 grid-rows-7 sm:grid-cols-4 sm:grid-rows-2">
-        <div id="user" class="bg-Dark-blue rounded-xl grid grid-rows-[8rem_5rem] row-span-2 sm:grid-rows-[2fr_1fr]">
-            <div class="grid grid-cols-[1fr_3fr] sm:grid-cols-1 sm:grid-rows-[2fr_3fr] bg-Blue items-center rounded-xl px-8">
+<body class="w-full h-[100vh] bg-Verydarkblue grid items-center justify-items-center box-border font-Rubik sm:py-0">
+    <header class="w-[90%] sm:w-[80%] my-[5rem] sm:my-0 grid grid-cols-1 grid-flow-row gap-8 grid-rows-7 sm:grid-cols-4 sm:grid-rows-2">
+        <div id="user" class="bg-Dark-blue rounded-xl grid grid-rows-[10rem_5rem] row-span-2 sm:grid-rows-[2fr_1fr]">
+            <div class="grid grid-cols-[1fr_2fr] sm:grid-cols-1 sm:grid-rows-[2fr_3fr] bg-Blue items-center rounded-xl px-8">
                 <div class="w-[5.5rem] sm:w-[5.5rem] place-self-center sm:justify-self-start">
-                    <img class="w-full border-[3px] border-white rounded-[50%]" src="./images/image-jeremy.png" alt="image-jeremy" />
+                    <img class="w-full border-[4px] border-white rounded-[50%]" src="./images/image-jeremy.png" alt="image-jeremy" />
                 </div>
                 <div class="sm:self-start">
                     <p class="text-[1rem] text-Pale-Blue font-medium">Report for</p>
                     <h1 class="text-[1.5rem] text-white sm:text-[2.5rem] font-light sm:leading-[3rem]">Jeremy Robson</h1>
                 </div>
             </div>
-            <div class = "grid grid-cols-3 place-items-center sm:grid-cols-1 sm:justify-items-start px-8">
+            <div id = "timeline" class = "grid grid-cols-3 place-items-center sm:grid-cols-1 sm:justify-items-start px-8">
                 <p id = "daily" class="text-Pale-Blue text-[1.2rem] font-medium sm:self-end cursor-pointer">Daily</p>
                 <p id = "weekly" class="text-white text-[1.2rem] font-medium cursor-pointer">Weekly</p>
                 <p id = "monthly" class="text-Pale-Blue text-[1.2rem] font-medium sm:self-start cursor-pointer">Monthly</p>
@@ -33,10 +33,10 @@
                 <img src = "./images/icon-work.svg" alt = "./icon-work" class = "absolute right-4 -top-2.5 z-10"/>
             </div>
             <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
-                <h2 class="justify-self-start self-end font-semibold text-[1.2rem] sm:font-medium text-white">Work</h2>
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Work</h2>
                 <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
-                <p class="justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">32hrs</p>
-                <p class="justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 36hrs</p>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">32hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 36hrs</p>
             </div>
         </div>
         
@@ -45,10 +45,10 @@
                 <img src = "./images/icon-play.svg" alt = "./icon-play" class = "absolute right-4 -top-2.5 z-10"/>
             </div>
             <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
-                <h2 class="justify-self-start self-end font-semibold text-[1.2rem] sm:font-medium text-white">Play</h2>
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Play</h2>
                 <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
-                <p class="justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">10hrs</p>
-                <p class="justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 8hrs</p>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">10hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 8hrs</p>
             </div>
         </div>
     
@@ -57,10 +57,10 @@
                 <img src = "./images/icon-study.svg" alt = "./icon-study" class = "absolute right-4 -top-2.5 z-10"/>
             </div>
             <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
-                <h2 class="justify-self-start self-end font-semibold text-[1.2rem] sm:tex-[1.5rem] sm:font-medium text-white">Study</h2>
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Study</h2>
                 <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
-                <p class="justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">4hrs</p>
-                <p class="justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 7hrs</p>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">4hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 7hrs</p>
             </div>
         </div>
 
@@ -69,10 +69,10 @@
                 <img src = "./images/icon-exercise.svg" alt = "./icon-exercise" class = "absolute right-4 -top-2.5 z-10"/>
             </div>
             <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
-                <h2 class="justify-self-start self-end font-semibold text-[1.2rem] sm:font-medium text-white">Exercise</h2>
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Exercise</h2>
                 <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
-                <p class="justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">4hrs</p>
-                <p class="justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 5hrs</p>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">4hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 5hrs</p>
             </div>
         </div>
 
@@ -81,10 +81,10 @@
                 <img src = "./images/icon-social.svg" alt = "./icon-social" class = "absolute right-4 -top-2.5 z-10"/>
             </div>
             <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
-                <h2 class="justify-self-start self-end font-semibold text-[1.2rem] sm:font-medium text-white">Social</h2>
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Social</h2>
                 <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
-                <p class="justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">5hrs</p>
-                <p class="justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 10hrs</p>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">5hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 10hrs</p>
             </div>
         </div>        
 
@@ -93,10 +93,10 @@
                 <img src = "./images/icon-self-care.svg" alt = "./icon-self-care" class = "absolute right-4 -top-2.5 z-10"/>
             </div>
             <div class="bg-Dark-blue hover:bg-Desaturated-blue cursor-pointer rounded-t-xl z-20 grid grid-cols-2 sm:grid-rows-[1fr_2fr_1fr] px-[5%] sm:px-[10%]">
-                <h2 class="justify-self-start self-end font-semibold text-[1.2rem] sm:font-medium text-white">Self Care</h2>
+                <h2 class="justify-self-start self-end text-[1.2rem] font-medium text-white">Self Care</h2>
                 <svg class = "justify-self-end self-end fill-[#BBC0FF] sm:-translate-y-3 hover:fill-white cursor-pointer" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
-                <p class="justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">2hrs</p>
-                <p class="justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 2hrs</p>
+                <p class="current justify-self-start place-self-center text-[2rem] sm:text-[3.5rem] text-white font-thin sm:col-span-2 sm:justify-self-start">2hrs</p>
+                <p class="previous justify-self-end place-self-center text-Pale-Blue sm:col-span-2 sm:justify-self-start sm:self-start" >Last Week - 2hrs</p>
             </div>
         </div>
         
