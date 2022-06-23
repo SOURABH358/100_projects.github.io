@@ -21,7 +21,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-13](#project-13)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-13/)              |3-Column Card Component|
 |   [Project-14](#project-14)   |   [live site](https://timely-torte-74a5d9.netlify.app/)                                     |profile card component|
 |   [Project-15](#project-15)   |   [live site](https://magenta-narwhal-dab150.netlify.app/)                                     |Bookmark Landing Page|
-|   [Project-16](#project-16)   |   [live site](https://magenta-narwhal-dab150.netlify.app/)                                     |Time Tracking Dashboard|
+|   [Project-16](#project-16)   |   [live site](https://musical-gelato-07fe55.netlify.app/)                                     |Time Tracking Dashboard|
 ## Project-1
 >Food Menu Filter
 
@@ -279,12 +279,15 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     
 ### Links
 [Code](./project-16)  
-Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/bookmark-landing-page-4Txu18kFoA)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/time-tracking-dashboard-SfPtQnA769)  
 Live Website - [Live Website URL here](https://musical-gelato-07fe55.netlify.app/)  
 
 <p align = "center">
-    <img src = "./Screenshot/screenshot-16.jpg"/>
-</p>  
+    <img src = "./Screenshot/screenshot-16-1.jpg"/>
+</p> 
+<p align = "center">
+    <img src = "./Screenshot/screenshot-16-2.jpg"/>
+</p> 
 
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
