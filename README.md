@@ -108,6 +108,11 @@ This project is a challenge completed by me at Frontendmentor. It is a NFT Card 
 - HTML
 - CSS
 
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-5.jpg"/>
+</p>  
+
 ### Links
 [Code](./project-5)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-challenge-hub-KXd3-rg4G)  
@@ -124,6 +129,11 @@ This is another challenge completed by me of Frontendmentor. It is an amazing we
 - JAVASCRIPT
 - API
     
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-6.jpg"/>
+</p>  
+
 ### Links
 [Code](./project-6)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-ulVxNw9TH)  
@@ -139,6 +149,11 @@ This is an animated website. Website is divided into two partitions which change
 - CSS
 - Javascript  
     
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-7.jpg"/>
+</p>  
+
 ### Links
 [Code](./project-7)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-7/)  
@@ -151,6 +166,11 @@ In this project I have made animated cards which expands and contracts after bei
 - CSS
 - Javascript  
     
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-8.jpg"/>
+</p>  
+
 ### Links
 [Code](./project-8)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-8/) 
