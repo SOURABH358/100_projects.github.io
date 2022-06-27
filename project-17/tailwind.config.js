@@ -19,7 +19,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero-mobile': "url('./images/image-product-mobile.jpg')",
-        'hero-desktop': "url('./images/image-product-desktop.jpg')"
+        'hero-desktop': "url('./images/image-product-desktop.jpg')",
+        'icon-cart':"url('./images/icon-cart.svg')"
       }
     }
 
