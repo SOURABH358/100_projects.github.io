@@ -22,6 +22,8 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-14](#project-14)   |   [live site](https://timely-torte-74a5d9.netlify.app/)                                     |profile card component|
 |   [Project-15](#project-15)   |   [live site](https://magenta-narwhal-dab150.netlify.app/)                                     |Bookmark Landing Page|
 |   [Project-16](#project-16)   |   [live site](https://musical-gelato-07fe55.netlify.app/)                                     |Time Tracking Dashboard|
+|   [Project-17](#project-17)   |   [live site](https://thriving-mandazi-5946cd.netlify.app/)                                     |Product Preview Card|  
+
 ## Project-1
 >Food Menu Filter
 
@@ -308,6 +310,27 @@ Live Website - [Live Website URL here](https://musical-gelato-07fe55.netlify.app
 <p align = "center">
     <img src = "./Screenshot/screenshot-16-2.jpg"/>
 </p> 
+
+## Project-17
+>Project preview card component
+
+In this project I have completed one of the challenges of Front end mentor. Challenge was to design a static Product Preview Card Component. Files and style guide were provided for the challenge below is my solution link.
+
+## Built With
+- Semantic HTML5 markup
+- tailwind css
+- netlify
+    
+### Links
+[Code](./project-17)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/time-tracking-dashboard-SfPtQnA769)  
+Live Website - [Live Website URL here](https://thriving-mandazi-5946cd.netlify.app/)  
+
+<p align = "center">
+    <img src = "./Screenshot/screenshot-17.jpg"/>
+</p> 
+
+
 
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
