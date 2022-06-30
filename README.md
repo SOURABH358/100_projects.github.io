@@ -175,7 +175,9 @@ In this project I have made animated cards which expands and contracts after bei
 
 ### Links
 [Code](./project-8)  
-Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-8/) 
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-8/)  
+
+
 ## Project-9
 >Remote work landing page
 
@@ -186,10 +188,16 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 - SCSS
 - Javascript  
     
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-9-1.jpg"/>
+</p> 
+
 ### Links
 [Code](./project-9)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-BkgzY7CUq)  
-Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-9/)
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-9/)  
+
 
 ## Project-10
 >Expense tracker chart component
@@ -198,12 +206,18 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 ## Built With
 - HTML  
 - CSS
-- SCSS
+- SCSS  
+
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-10.jpg"/>
+</p> 
     
 ### Links
 [Code](./project-10)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/expense-tracker-chart-component-Zb4VAxQC9H)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-10/)  
+
 
 ## Project-11
 >Order Summary Component
@@ -214,10 +228,16 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 - CSS
 - SCSS
     
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-11.jpg"/>
+</p> 
+
 ### Links
 [Code](./project-11)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/order-summary-component-DKFunM18_X)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-11/)
+
 
 ## Project-12
 >Room Home Page
@@ -229,10 +249,16 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 - SCSS
 - JS
     
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-12.jpg"/>
+</p> 
+
 ### Links
 [Code](./project-12)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/room-home-page-7q8VPz8BWy)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-12/)
+
 
 ## Project-13
 >3-Column Card Component
