@@ -323,7 +323,7 @@ In this project I have completed one of the challenges of Front end mentor. Chal
     
 ### Links
 [Code](./project-17)  
-Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/time-tracking-dashboard-SfPtQnA769)  
+Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-ePWujdIscU)  
 Live Website - [Live Website URL here](https://thriving-mandazi-5946cd.netlify.app/)  
 
 <p align = "center">
