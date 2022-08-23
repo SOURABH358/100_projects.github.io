@@ -9,7 +9,9 @@ generateButton.addEventListener('click',(e)=>{
     if(str){
         
         resQr.setAttribute('src', `http://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${str}`);
-        resCont.classList.add('show__result__qr');
+            setTimeout(()=>{
+                resCont.classList.add('show__result__qr');
+            },500)
     }
     else{
         window.alert('Please provide any text or url')

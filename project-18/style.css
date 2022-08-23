@@ -25,6 +25,7 @@ body{
     border: 1px solid black;
     padding: 2rem 0;
     text-align: center;
+    transition: all 1s ease;
 }
 #generator__container h2{
     padding-bottom: 1rem;
