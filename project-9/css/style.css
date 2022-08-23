@@ -6,6 +6,8 @@
   margin: 0;
   font-family: 'Epilogue', sans-serif;
   color: dimgray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ul li {
@@ -18,11 +20,16 @@ a {
 }
 
 body {
+  min-width: 375px;
+  min-height: 100vh;
   overflow-x: hidden;
   background: #fafafa;
 }
 
 .header-section {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,6 +64,7 @@ body {
 .header-section .navbar {
   position: absolute;
   top: 0;
+  display: none;
   right: -100%;
   width: 60%;
   height: 100%;
@@ -195,6 +203,7 @@ body {
 }
 
 .header-section .slide {
+  display: block;
   right: 0;
 }
 
@@ -219,6 +228,8 @@ body {
 }
 
 .main .content {
+  width: 90%;
+  margin: auto;
   text-align: center;
 }
 
@@ -258,7 +269,8 @@ body {
           justify-content: space-between;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 3rem 0.5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .main .content .client-links img {
@@ -270,7 +282,10 @@ body {
     margin: 0;
   }
   .header-section {
+    width: 100%;
     padding: 0.4rem 1rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .header-section .hamburger {
     display: none;
@@ -289,6 +304,7 @@ body {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    width: 100%;
   }
   .header-section .nav .navbar {
     position: relative;
@@ -409,7 +425,7 @@ body {
     margin-bottom: 8rem;
   }
   .main .content .client-links {
-    padding: 0;
+    padding: 0 1rem;
   }
   .main .content .client-links img {
     width: 100%;
