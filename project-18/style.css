@@ -25,7 +25,6 @@ body{
     border: 1px solid black;
     padding: 2rem 0;
     text-align: center;
-
 }
 #generator__container h2{
     padding-bottom: 1rem;
@@ -57,14 +56,15 @@ body{
     border-radius: 0.5rem;
     cursor: pointer;
 }
-#result__qr{
+.result__qr{
     display: none;
     width: 90%;
-    padding: 2rem auto;
+    padding:2rem 0;
     margin-left: 5%;
     margin-top: 2rem;
     border: 1px solid black;
     box-shadow: 2px 2px 2px 0 #777;
+    
 }
 .show__result__qr{
     display: block;
