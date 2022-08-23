@@ -1,0 +1,71 @@
+*,::after,::before{
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+#container{
+    width: 40%;
+    place-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#generator__container{
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid black;
+    padding: 2rem 0;
+    text-align: center;
+
+}
+#generator__container h2{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+#generator__container p{
+    padding-bottom: 3.5rem;
+    font-size: 0.9rem;
+}
+#generator__container form{
+    display: grid;
+    grid-template-rows: auto auto;
+    place-items: center;
+    row-gap: 1rem;
+}
+#generator__container form input{
+    width: 90%;
+    line-height: 1.75rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+#generator__container form button{
+    width: 90%;
+    height: 3rem;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1rem;
+    border : none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#result__qr{
+    display: none;
+    width: 90%;
+    padding: 2rem auto;
+    margin-left: 5%;
+    margin-top: 2rem;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 0 #777;
+}
+.show__result__qr{
+    display: block;
+}
