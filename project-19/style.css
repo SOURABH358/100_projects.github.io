@@ -24,7 +24,7 @@ body{
 #form h3{
     font-size: 2rem;
 }
-#form #input{
+#input{
     position: relative;
     width: 25rem;
     height: 3rem;
@@ -39,15 +39,39 @@ body{
 .valid #result{
     color: greenyellow;
 }
-.valid #input:before{
+input:focus{
+    outline: none;
+}
+.inputbox{
+    position: relative;
+}
+.inputbox::after{
     position: absolute;
-    content: '✔';
+    content: '';
+    top: 6px;
+    right: 10px;
     color: white;
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+#form.valid .inputbox::after{
+    content: '✔';
     background-color: greenyellow;
 
+    display: flex;
+}
+#form.invalid .inputbox::after{
+    content: '❌';
+    color: white;
+    background-color: white;
+
+    display: flex;
 }
 .invalid #result{
     color: red;
