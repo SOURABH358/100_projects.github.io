@@ -4,7 +4,7 @@
 }
 body{
     min-height: 100vh;
-    background-color: aliceblue;
+    background-color: #87CEEB;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@ body{
 #form{
     width: 35rem;
     height: 15rem;
-    background-color: #87CEEB;
+    background-color: white;
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
@@ -32,12 +32,18 @@ body{
     padding: 0 0.5rem;
     font-size: 1.1rem;
     text-align: center;
+    background-color: #ADD8E6;
 }
 #result{
     font-style: italic;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
 }
 .valid #result{
-    color: greenyellow;
+    color: green;
+}
+.invalid #result{
+    color: red;
 }
 input:focus{
     outline: none;
@@ -62,17 +68,13 @@ input:focus{
 }
 #form.valid .inputbox::after{
     content: '✔';
-    background-color: greenyellow;
+    background-color: green;
 
     display: flex;
 }
 #form.invalid .inputbox::after{
     content: '❌';
-    color: white;
-    background-color: white;
+    background-color: transparent;
 
     display: flex;
-}
-.invalid #result{
-    color: red;
 }
