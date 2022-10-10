@@ -23,7 +23,7 @@
             const result = document.getElementById('result')
             const email = document.getElementById('input').value
             const form = document.getElementById("form")
-            const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            const pattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
             if(email.match(pattern)){
                 result.innerHTML = 'Email is valid!'
