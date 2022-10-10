@@ -387,7 +387,19 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-ePWujdIscU)  
 Live Website - [Live Website URL here](https://thriving-mandazi-5946cd.netlify.app/)  
 
+## Project-19
+>Email Validator
 
+A simple email validation application that verifies given url.  
+Check live [Demo]()
+
+### Built With
+- Semantic HTML5 markup
+- CSS
+- Javascript
+    
+[Code](./project-19)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-19/index.html)  
 
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
