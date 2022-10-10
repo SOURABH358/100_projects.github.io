@@ -25,10 +25,30 @@ body{
     font-size: 2rem;
 }
 #form #input{
+    position: relative;
     width: 25rem;
     height: 3rem;
     border: none;
     padding: 0 0.5rem;
     font-size: 1.1rem;
     text-align: center;
+}
+#result{
+    font-style: italic;
+}
+.valid #result{
+    color: greenyellow;
+}
+.valid #input:before{
+    position: absolute;
+    content: '✔';
+    color: white;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: greenyellow;
+
+}
+.invalid #result{
+    color: red;
 }

@@ -11,9 +11,28 @@
     <div>
         <form id = "form" action="#">
             <h3>Email Validator</h3>
-            <input id = "input" name = "email" type = "text" placeholder="ENTER YOUR EMAIL">
+            <input id = "input" name = "email" type = "text" placeholder="ENTER YOUR EMAIL" onkeydown="onValidation()">
             <p id = "result"></p>
         </form>
     </div>
+    <script type = "text/javascript">
+        function onValidation(){
+            const result = document.getElementById('result')
+            const email = document.getElementById('input').value
+            const form = document.getElementById("form")
+            const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+            if(email.match(pattern)){
+                result.innerHTML = 'Email is valid!'
+                form.classList.add('valid')
+                form.classList.remove('invalid')
+            }
+            else {
+                result.innerHTML = 'Email is Invalid!'
+                form.classList.add('invalid')
+                form.classList.remove('valid')
+            }
+        }
+    </script>
 </body>
 </html>
