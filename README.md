@@ -23,7 +23,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-15](#project-15)   |   [live site](https://magenta-narwhal-dab150.netlify.app/)                                     |Bookmark Landing Page|
 |   [Project-16](#project-16)   |   [live site](https://musical-gelato-07fe55.netlify.app/)                                     |Time Tracking Dashboard|
 |   [Project-17](#project-17)   |   [live site](https://thriving-mandazi-5946cd.netlify.app/)                                     |Product Preview Card|
-|   [Project-18](#project-18)   |   [live site](https://thriving-mandazi-5946cd.netlify.app/)                                     |Product Preview Card|
+|   [Project-18](#project-18)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-18/)                  |QR Code Generator|
 |   [Project-17](#project-19)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-19/)                   |Email Validator|
 
 ## Project-1
@@ -389,11 +389,30 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-ePWujdIscU)  
 Live Website - [Live Website URL here](https://thriving-mandazi-5946cd.netlify.app/)  
 
+## Project-18
+>QR Code Generator
+
+In this project I have built a QR Code generator. The app requires a text, url from the user and then converts it to a qr code. Which the user can then scan and have fun.
+
+### Built With
+- Semantic HTML5 markup
+- CSS
+- Javascript
+    
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-18.jpg"/>
+</p>  
+
+### Links
+[Code](./project-18)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-18/index.html)  
+
 ## Project-19
 >Email Validator
 
 A simple email validation application that verifies given url.  
-Check live [Demo]()
+Check live [Demo](https://sourabh358.github.io/100_projects.github.io/project-19/index.html)
 
 ### Built With
 - Semantic HTML5 markup
