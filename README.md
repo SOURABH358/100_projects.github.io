@@ -22,7 +22,9 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-14](#project-14)   |   [live site](https://timely-torte-74a5d9.netlify.app/)                                     |profile card component|
 |   [Project-15](#project-15)   |   [live site](https://magenta-narwhal-dab150.netlify.app/)                                     |Bookmark Landing Page|
 |   [Project-16](#project-16)   |   [live site](https://musical-gelato-07fe55.netlify.app/)                                     |Time Tracking Dashboard|
-|   [Project-17](#project-17)   |   [live site](https://thriving-mandazi-5946cd.netlify.app/)                                     |Product Preview Card|  
+|   [Project-17](#project-17)   |   [live site](https://thriving-mandazi-5946cd.netlify.app/)                                     |Product Preview Card|
+|   [Project-18](#project-18)   |   [live site](https://thriving-mandazi-5946cd.netlify.app/)                                     |Product Preview Card|
+|   [Project-17](#project-19)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-19/)                   |Email Validator|
 
 ## Project-1
 >Food Menu Filter
@@ -397,7 +399,11 @@ Check live [Demo]()
 - Semantic HTML5 markup
 - CSS
 - Javascript
-    
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-19.jpg"/>
+</p>
+
 [Code](./project-19)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-19/index.html)  
 
