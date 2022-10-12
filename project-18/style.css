@@ -25,7 +25,7 @@ body{
     border: 1px solid black;
     padding: 2rem 0;
     text-align: center;
-    transition: all 1s ease;
+    box-shadow: 18px 18px 18px 0px rgba(0,0,0,0.2);
 }
 #generator__container h2{
     padding-bottom: 1rem;
@@ -58,16 +58,20 @@ body{
     cursor: pointer;
 }
 .result__qr{
-    display: none;
-    width: 90%;
-    padding:2rem 0;
+    height: 0;
     margin-left: 5%;
+    width: 90%;
+}
+.result__qr img{
+    visibility: hidden;
+}
+.show__result__qr{
     margin-top: 2rem;
+    padding:2rem 0;
+    height: fit-content;
     border: 1px solid black;
     box-shadow: 2px 2px 2px 0 #777;
-    
 }
-
-.show__result__qr{
-    display: block;
+.show__result__qr img{
+    visibility: visible;
 }

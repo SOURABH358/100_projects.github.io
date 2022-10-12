@@ -4,6 +4,8 @@ const inputText = document.querySelector('#generator__form input')
 const resCont = document.querySelector('.result__qr');
 generateButton.addEventListener('click',(e)=>{
     e.preventDefault();
+    resQr.setAttribute('src', '');
+    resCont.classList.remove('show_result_qr')
     let str = inputText.value;
     str=str.split(" ").join("");
     if(str){
