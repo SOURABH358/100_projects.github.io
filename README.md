@@ -24,7 +24,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-16](#project-16)   |   [live site](https://musical-gelato-07fe55.netlify.app/)                                     |Time Tracking Dashboard|
 |   [Project-17](#project-17)   |   [live site](https://thriving-mandazi-5946cd.netlify.app/)                                     |Product Preview Card|
 |   [Project-18](#project-18)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-18/)                  |QR Code Generator|
-|   [Project-17](#project-19)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-19/)                   |Email Validator|
+|   [Project-19](#project-19)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-19/)                   |Email Validator|
 
 ## Project-1
 >Food Menu Filter
