@@ -12,14 +12,14 @@ recognition.onstart = (event)=>{
     Alert.innerText = 'You can start speaking'
     setTimeout(()=>{
         Alert.classList.remove('show__alert')
-    },500)
+    },1500)
 }
 recognition.onend = (event)=>{
     Alert.classList.add('show__alert')
     Alert.innerText = 'Recording has stopped'
     setTimeout(()=>{
         Alert.classList.remove('show__alert')
-    },500)
+    },1500)
 }
     recognition.onresult = (event)=>{
         result.innerText = event.results[0][0].transcript;

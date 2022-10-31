@@ -27,21 +27,21 @@ h1{
     text-align: center;
    background-color: #343434;
     padding: 1rem 2.5rem;
-    overflow-y: scroll;
 }
 .alert{
-    display: none;
     position: absolute;
-    top: 1rem;
+    top: -100%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: aqua;
     text-align: center;
+    color: #000;
+    transition: 0.5s ease-in-out;
 }
 .show__alert{
-    display: block;
+    top: 0;
 }
 button{
     border: none;
