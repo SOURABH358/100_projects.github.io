@@ -1,0 +1,38 @@
+*,*::after, *::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+   display: flex;
+   padding-top: 10vh;
+   flex-direction: column;
+   align-items: center;
+}
+h1{
+   font-size: 4rem;
+   margin-bottom: 10vh;
+}
+#result{
+    width: 40vw;
+    height: 20vh;
+    border: 1px solid black;
+    border-radius: 1rem;
+    text-align: center;
+}
+.alert{
+    display: none;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 0.5rem;
+    background-color: aqua;
+    text-align: center;
+}
+.show__alert{
+    display: block;
+}
