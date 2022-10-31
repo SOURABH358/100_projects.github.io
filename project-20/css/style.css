@@ -56,16 +56,15 @@ button{
     cursor: pointer;
     font-size: 1.1rem;
     font-weight: 600;
-    margin: 2rem 0;
 }
 button::before{
     position: absolute;
     top: 0;
-    left: -100%;
+    left: -110%;
     content: '';
     background-color: aqua;
     height: 100%;
-    width: 100%;
+    width: 110%;
     z-index: -1;
     transition: 0.5s ease-in-out;
     border-radius: 0.5rem;
@@ -76,4 +75,10 @@ button:hover::before{
 }
 button:hover{
     color: #301934;
+}
+.buttons {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+
 }
