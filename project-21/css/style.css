@@ -1,7 +1,15 @@
-*,*::after,*::before{
+*,
+*::after,
+*::before {
     margin: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: customFont1;
+    src: url(../Inter-VariableFont_slnt\,wght.ttf);
+}
+
 :root {
     --Soft-orange: hsl(35, 77%, 62%);
     --Soft-red: hsl(5, 85%, 63%);
@@ -11,10 +19,49 @@
     --Very-dark-blue: hsl(240, 100%, 5%);
 }
 
-html{
+html {
     background-color: var(--Off-white);
+    font-family: customFont1;
+    font-size: 15px;
 }
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--Very-dark-blue);
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 2.5%;
+}
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: column;
 
-@media screen and (min-width:375px){
-    
+}
+#menu{
+
+}
+@media screen and (min-width:1440px) {
+    body {
+        padding: 10rem 10%;
+    }
+    #navbar ul{
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+    #menu{
+        display: none;
+    }
+    #close{
+        display: none;
+    }
 }
