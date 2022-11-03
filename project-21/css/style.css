@@ -62,7 +62,13 @@ body{
 #navbar ul{
     display: flex;
     flex-direction: column;
+}
+#navbar ul li{
     color: var(--Dark-grayish-blue);
+
+}
+#navbar ul li a:hover{
+    color: var(--Soft-red);
 }
 #menu{
     cursor: pointer;
@@ -113,6 +119,10 @@ body{
     font-family: InterBold;
     font-size: 1.1rem;
     margin-bottom: 1rem;
+    cursor: pointer;
+}
+.card-title:hover{
+    color: var(--Soft-orange)
 }
 .card-para{
     font-size: 1rem;
@@ -146,6 +156,9 @@ body{
     font-size: 0.9rem;
     margin-bottom: 3rem;
 }
+#read-more:hover{
+    background-color: var(--Very-dark-blue);
+}
 #tiles{
     display: flex;
     padding: 4rem 0;
@@ -175,6 +188,10 @@ body{
 .tile-title{
     font-family: InterExtraBold;
     font-size: 1.1rem;
+    cursor: pointer;
+}
+.tile-title:hover{
+    color: var(--Soft-red);
 }
 .tile-para{
     line-height: 1.5rem;
@@ -182,11 +199,16 @@ body{
     color: var(--Dark-grayish-blue);
 }
 @media screen and (min-width:1440px) {
+    *{
+        margin: 0;
+    }
     body {
         padding: 5rem 11%;
     }
     #navbar{
         position: relative;
+        top: 0;
+        right: 0;
     }
     #navbar ul{
         flex-direction: row;
@@ -197,6 +219,7 @@ body{
     }
     #header{
         margin-bottom: 4rem;
+        padding: 0;
     }
     #menu{
         display: none;
@@ -209,14 +232,16 @@ body{
         grid-template-rows: 24rem 15rem;
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 2rem;
-        column-gap: 3rem;
-        margin-bottom: 4rem;
+        column-gap: 2rem;
+        margin-bottom: 3rem;
     }
     #hero{
         width: 100%;
-        height: 10rem;
+        height: 100%;
         background-image: url(../images/image-web-3-desktop.jpg);
         grid-column: 1/3;
+        background-position: center;
+        background-size: cover;
     }
     #hero img{
         width: 100%;
@@ -225,7 +250,7 @@ body{
     #cards{
         grid-column: 3/4;
         grid-row: 1/3;
-        
+        margin: 0;
     }
     #cards h3{
         font-size: 3.25rem;
@@ -258,7 +283,7 @@ body{
     #hero-para{
         font-family: InterRegular;
         color: var(--Dark-grayish-blue);
-        line-height: 2rem;
+        line-height: 1.5rem;
         font-size: 1.1rem;
     }
     #read-more{
@@ -271,7 +296,7 @@ body{
         font-size: 0.9rem;
     }
     #tiles{
-        display: flex;
+        flex-direction: row;
         gap: 2rem;
     }
     .tile{
