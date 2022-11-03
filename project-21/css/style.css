@@ -51,21 +51,28 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2rem 0;
 }
 #navbar{
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -100%;
     z-index: 3;
+    width: 70%;
+    background-color: var(--Off-white);
+    height: 100%;
+    padding: 8rem 0;
+    transition: 0.5s ease-in-out;
 }
 #navbar ul{
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
 #navbar ul li{
     color: var(--Dark-grayish-blue);
-
+    font-size: 1.25rem;
 }
 #navbar ul li a:hover{
     color: var(--Soft-red);
@@ -81,10 +88,19 @@ body{
     width: 100%;
     min-height: 100vh;
     background-color: rgba(0,0,0,0.2);
-    display: none;
+    visibility: hidden;
+    transition-delay: 0.25s;
 }
 .show #layover{
-    display: block;
+    visibility: visible;
+}
+#close{
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+}
+.show #navbar{
+    right: 0;
 }
 #main{
     display: flex;
@@ -209,6 +225,8 @@ body{
         position: relative;
         top: 0;
         right: 0;
+        padding: 0;
+        width: fit-content;
     }
     #navbar ul{
         flex-direction: row;
