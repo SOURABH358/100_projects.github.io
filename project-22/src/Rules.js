@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Rules({rules, setRules}) {
+export default function Rules({rules, setRules, setGames}) {
     return (
         <section className={rules}>
-            <h1 id="game-title">Sudoku</h1>
+            
             <div id="layover"></div>
             <div id="rules">
                 <h2 id="rules-title">Sudoku Rules</h2>
@@ -17,7 +17,10 @@ export default function Rules({rules, setRules}) {
                     <li>There is a timer running to notice time taken by you to solve the sudoku.</li>
                 </ul>
                 <div id="play" >
-                    <button type="button" onClick={()=>{setRules("")}}>Play</button>
+                    <button type="button" onClick={()=>{
+                        setRules("");
+                        setGames(true)
+                }}>Play</button>
                 </div>
             </div>
         </section>
