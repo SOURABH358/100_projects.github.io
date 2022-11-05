@@ -8,6 +8,7 @@ import './App.css'
 function App() {
   const [rules, setRules] = useState("show");
   const [games, setGames] = useState(false)
+  const [result, setResult] = useState(false)
   const [sudoku, setSudoku] = useState([])
   const [board, setBoard] = useState([])
   const [solution, setSolution] = useState([])
@@ -20,16 +21,26 @@ function App() {
     />
     {games
       ? <Game
-        games={games}
+        // games={games}
+        setGames={setGames}
         sudoku = {sudoku}
         setSudoku = {setSudoku}
         solution = {solution}
         setSolution = {setSolution}
         board = {board}
         setBoard = {setBoard}
+        setResult = {setResult}
       />
       : <></>}
-    {/* <Result /> */}
+    {result
+    ?<Result 
+    solution = {solution}
+    board = {board}
+    sudoku = {sudoku}
+    setGames = {setGames}
+    setResult = {setResult}
+    />
+    :<></>}
   </>
   )
 }

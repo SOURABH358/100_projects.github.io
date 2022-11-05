@@ -84,3 +84,101 @@ body{
 .show #rules{
     top: 8rem;
 }
+#games-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+#sudoku{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(9, 5rem);
+    grid-template-rows: repeat(9, 4rem);
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2);
+    border: 4px solid black;
+}
+#sudoku input{
+    text-align: center;
+    font-size: 1.25rem;
+    border: 1px solid black;
+}
+#sudoku input:focus{
+    outline: none;
+}
+.filled{
+    background-color: brown;
+    color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.btn{
+    border:none;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+}
+#verify{
+    margin-right: 4rem;
+}
+#result-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+#boards{
+    display: flex;
+    gap: 4rem;
+}
+#user{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(9, 4rem);
+    grid-template-rows: repeat(9, 3rem);
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2);
+    border: 4px solid black;
+}
+#solution{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(9, 4rem);
+    grid-template-rows: repeat(9, 3rem);
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2);
+    border: 4px solid black;
+}
+#boards input{
+    text-align: center;
+    font-size: 0.8rem;
+    border: 1px solid black;
+}
+.result-title{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.correct{
+    background-color: lightgreen;
+}
+.incorrect{
+    background-color: lightcoral;
+}

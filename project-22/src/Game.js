@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import './Game.css'
-export default function Game({ games, sudoku, setSudoku, setSolution, board, setBoard }) {
+export default function Game({ games, setGames, sudoku, setSudoku, setSolution, board, setBoard, setResult}) {
     useEffect(() => {
         const getTiles = async () => {
             const options = {
@@ -28,7 +27,8 @@ export default function Game({ games, sudoku, setSudoku, setSolution, board, set
             }
         }
         getTiles()
-    }, [])
+        
+    }, [games])
     function handleEntry(event) {
         if (parseInt(event.target.value) < 1 || parseInt(event.target.value) > 9) {
             event.target.value = ""
@@ -44,13 +44,19 @@ export default function Game({ games, sudoku, setSudoku, setSolution, board, set
         }
 
     }
+    function handleSubmit(event){
+        event.preventDefault();
+        setResult(true)
+        setGames(false)
+    }
+
     function showTiles() {
         return sudoku.map((el, i) => {
             return el.map((data, j) => {
                 if (board[i][j] === 0)
-                    return <input type="number" id={`${i}_${j}`} onChange={handleEntry} max="9" min="1" />
+                    return <input type="number" id={`${i}_${j}`} onChange={handleEntry} value = {data?data:""} max="9" min="1" />
                 else
-                    return <input type="number" key={`${i}${j}`} readOnly={true} value={data} className="filled" />
+                    return <input type="text" id={`${i}${j}`} readOnly={true} value={data} className="filled" />
             })
         })
     }
@@ -61,7 +67,7 @@ export default function Game({ games, sudoku, setSudoku, setSolution, board, set
             </form>
             <div>
                 <button type="button" id="verify" className="btn">Verify</button>
-                <button type="submit" id="submit" className="btn">Submit</button>
+                <button type="submit" id="submit" className="btn" onClick={handleSubmit}>Submit</button>
             </div>
         </section>
     )
