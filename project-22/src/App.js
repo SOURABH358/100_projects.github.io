@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
+import axios from "axios";
+import Rules from "./Rules";
+import Game from "./Game";
+import Result from "./Result";
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+  const [rules, setRules] = useState("");
+
+  return(<>
+    <Rules
+    rules = {rules}
+    setRules = {setRules}
+    />
+    {/* <Game />
+    <Result /> */}
+  </>
+  )
 }
-
 export default App;
+// const options = {
+//   method: 'GET',
+//   url: 'https://sudoku-board.p.rapidapi.com/new-board',
+//   params: {diff: '2', stype: 'list', solu: 'true'},
+//   headers: {
+//     'X-RapidAPI-Key': 'a1238b7942msh225a191ee761b65p1ba5e1jsn457057aff454',
+//     'X-RapidAPI-Host': 'sudoku-board.p.rapidapi.com'
+//   }
+// };
+
+// axios.request(options).then(function (response) {
+// 	console.log(response.data);
+// }).catch(function (error) {
+// 	console.error(error);
+// });
