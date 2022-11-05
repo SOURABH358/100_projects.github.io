@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import './Game.css'
-export default function Game({games, sudoku, setSudoku,solution, setSolution}) {
-    
+export default function Game({ games, sudoku, setSudoku, setSolution, board, setBoard }) {
     useEffect(() => {
-        const getTiles = async () =>{
+        const getTiles = async () => {
             const options = {
                 method: 'GET',
                 url: 'https://sudoku-board.p.rapidapi.com/new-board',
@@ -15,23 +14,13 @@ export default function Game({games, sudoku, setSudoku,solution, setSolution}) {
                 }
             };
             try {
-                const {data:{response}} = await axios.request(options)
-                let tiles = response["unsolved-sudoku"].map(el => {
-                    return el.map(data => {
-                        if (data === 0)
-                            return <input type="text" />
-                        else
-                            return <input type="text" readOnly = {true} value={data} className = "filled"/>
-                    })
+                const { data: { response } } = await axios.request(options)
+                let tiles = response["unsolved-sudoku"]
+                let solTiles = response["solution"]
+                let newTiles = tiles.map(el => {
+                    return el.map(data => data)
                 })
-                let solTiles = response["solution"].map(el => {
-                    return el.map(data => {
-                        if (data === 0)
-                            return <input type="text" />
-                        else
-                            return <input type="text" readOnly = {true} value={data} className = "filled"/>
-                    })
-                })
+                setBoard(newTiles)
                 setSudoku(tiles)
                 setSolution(solTiles)
             } catch (error) {
@@ -39,17 +28,41 @@ export default function Game({games, sudoku, setSudoku,solution, setSolution}) {
             }
         }
         getTiles()
-    },[games])
+    }, [])
+    function handleEntry(event) {
+        if (parseInt(event.target.value) < 1 || parseInt(event.target.value) > 9) {
+            event.target.value = ""
+        }
+        else {
+            const i = event.target.id.split('_')[0]
+            const j = event.target.id.split('_')[1]
+            setSudoku(prevalue => {
+                let arr = [...prevalue]
+                arr[i][j] = parseInt(event.target.value);
+                return arr;
+            })
+        }
 
+    }
+    function showTiles() {
+        return sudoku.map((el, i) => {
+            return el.map((data, j) => {
+                if (board[i][j] === 0)
+                    return <input type="number" id={`${i}_${j}`} onChange={handleEntry} max="9" min="1" />
+                else
+                    return <input type="number" key={`${i}${j}`} readOnly={true} value={data} className="filled" />
+            })
+        })
+    }
     return (
         <section id="games-section">
             <form id="sudoku">
-                {solution}
+                {showTiles()}
             </form>
-                <div>
-                    <button type = "button" id = "verify">Verify</button>
-                    <button type = "submit" id = "submit">Submit</button>
-                </div>
+            <div>
+                <button type="button" id="verify" className="btn">Verify</button>
+                <button type="submit" id="submit" className="btn">Submit</button>
+            </div>
         </section>
     )
 }

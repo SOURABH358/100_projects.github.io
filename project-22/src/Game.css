@@ -5,8 +5,10 @@
 #games-section{
     width: 100%;
     display: flex;
-    justify-content: center;
-    padding-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 0;
 }
 #sudoku{
     margin: auto;
@@ -27,4 +29,26 @@
 .filled{
     background-color: brown;
     color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.btn{
+    border:none;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+}
+#verify{
+    margin-right: 4rem;
 }

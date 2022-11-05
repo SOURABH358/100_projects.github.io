@@ -6,9 +6,10 @@ import Result from "./Result";
 import './App.css'
 
 function App() {
-  const [rules, setRules] = useState("");
-  const [games, setGames] = useState(true)
+  const [rules, setRules] = useState("show");
+  const [games, setGames] = useState(false)
   const [sudoku, setSudoku] = useState([])
+  const [board, setBoard] = useState([])
   const [solution, setSolution] = useState([])
   return (<>
     <h1 id="game-title">Sudoku</h1>
@@ -24,6 +25,8 @@ function App() {
         setSudoku = {setSudoku}
         solution = {solution}
         setSolution = {setSolution}
+        board = {board}
+        setBoard = {setBoard}
       />
       : <></>}
     {/* <Result /> */}
