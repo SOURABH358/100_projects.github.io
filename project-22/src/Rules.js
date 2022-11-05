@@ -1,14 +1,14 @@
 import React from "react";
 
-export default function Rules() {
+export default function Rules({rules, setRules}) {
     return (
-        <section className="show">
+        <section className={rules}>
             <h1 id="game-title">Sudoku</h1>
             <div id="layover"></div>
             <div id="rules">
                 <h2 id="rules-title">Sudoku Rules</h2>
                 <ul id="rules-list">
-                    <li>You have to fill all the boxes with number between 1-9</li>
+                    <li>You have to fill all the tiles with number between 1-9</li>
                     <li>No Row or column should repeat the same number.</li>
                     <li>Some of the tiles are already prefilled to help you.</li>
                     <li>You can check if your sudoku is correct or not by clicking on the verify.</li>
@@ -17,7 +17,7 @@ export default function Rules() {
                     <li>There is a timer running to notice time taken by you to solve the sudoku.</li>
                 </ul>
                 <div id="play" >
-                    <button type="button">Play</button>
+                    <button type="button" onClick={()=>{setRules("")}}>Play</button>
                 </div>
             </div>
         </section>

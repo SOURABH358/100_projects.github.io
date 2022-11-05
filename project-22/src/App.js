@@ -6,7 +6,7 @@ import Result from "./Result";
 import './App.css'
 
 function App(){
-  const [rules, setRules] = useState("");
+  const [rules, setRules] = useState("show");
 
   return(<>
     <Rules
