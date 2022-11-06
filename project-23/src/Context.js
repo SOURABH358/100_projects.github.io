@@ -28,9 +28,9 @@ function AppProvider({children}){
     function remove(){
 
     }
-    useEffect(()=>{
-        fetchData();
-    },[])
+    // useEffect(()=>{
+    //     fetchData();
+    // },[])
     return <AppContext.Provider
     value = {{
         ...globalState,

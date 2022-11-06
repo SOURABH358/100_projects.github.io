@@ -1,6 +1,7 @@
 *,*::after,*::before{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 body{
     width: 100%;
@@ -11,12 +12,23 @@ body{
     text-align: center;
     padding: 2rem 0;
 }
+.navbar{
+    padding: 1.5rem 0;
+    background-color: cornflowerblue;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+}
+.navbar h1{
+    text-align: center;
+}
 .cart__container{
     width: 80%;
     display: fle;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     margin: auto;
+    padding: 2rem 0;
 }
 .cart{
     display: grid;
