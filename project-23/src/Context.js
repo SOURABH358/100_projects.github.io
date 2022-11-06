@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useReducer, useContext} from "react";
 import reducer from "./Reducer";
 
-const intialState = {
+const initialState = {
     loading: true,
     cartData: [],
     amount: 0,
@@ -9,28 +9,34 @@ const intialState = {
 }
 const AppContext = React.createContext()
 function AppProvider({children}){
-    const [globalState, dispatch] = useReducer(reducer, intialState)
+    const [globalState, dispatch] = useReducer(reducer, initialState)
 
     async function fetchData(){
+        dispatch({type: 'LOADING'})
         const response = await fetch('https://fakestoreapi.com/products')
         const data = await response.json()
-        dispatch({type: 'FETCH_DATA', payload: [...data]})
+        const modifyData = data.map(el=>{
+            el.amount = 1;
+            return el
+        })
+        // console.log(modifyData)
+        dispatch({type: 'FETCH_DATA', payload: [...modifyData]})
     }
-    function increase(){
-
+    function increase(id){
+        dispatch({type: 'INCREASE', payload: id})
     }
-    function decrease(){
-
+    function decrease(id){
+        dispatch({type: 'DECREASE', payload: id})
     }
     function clearCart(){
 
     }
-    function remove(){
-
+    function remove(id){
+        dispatch({type: 'REMOVE', payload: id})
     }
-    // useEffect(()=>{
-    //     fetchData();
-    // },[])
+    useEffect(()=>{
+        fetchData();
+    },[])
     return <AppContext.Provider
     value = {{
         ...globalState,

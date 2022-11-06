@@ -33,10 +33,10 @@ body{
 .cart{
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
-    grid-template-rows: 8rem;
+    grid-template-rows: 15rem;
 }
 .cart__image{
-    padding: 0.75rem;
+    padding: 4rem 0.75rem;
 }
 .cart__image img{
     width: 100%;
