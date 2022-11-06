@@ -131,9 +131,7 @@ input[type=number] {
     height: 3rem;
     cursor: pointer;
 }
-#verify{
-    margin-right: 4rem;
-}
+
 #result-section{
     width: 100%;
     display: flex;

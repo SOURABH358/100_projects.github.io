@@ -66,7 +66,6 @@ export default function Game({ games, setGames, sudoku, setSudoku, setSolution, 
                 {showTiles()}
             </form>
             <div>
-                <button type="button" id="verify" className="btn">Verify</button>
                 <button type="submit" id="submit" className="btn" onClick={handleSubmit}>Submit</button>
             </div>
         </section>
