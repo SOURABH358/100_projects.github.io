@@ -14,6 +14,7 @@ function AppProvider({children}){
     async function fetchData(){
         const response = await fetch('https://fakestoreapi.com/products')
         const data = await response.json()
+        dispatch({type: 'FETCH_DATA', payload: [...data]})
     }
     function increase(){
 
@@ -27,9 +28,9 @@ function AppProvider({children}){
     function remove(){
 
     }
-    // useEffect(()=>{
-    //     fetchData();
-    // },[])
+    useEffect(()=>{
+        fetchData();
+    },[])
     return <AppContext.Provider
     value = {{
         ...globalState,
