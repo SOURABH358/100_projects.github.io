@@ -1,0 +1,29 @@
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+.loading{
+    text-align: center;
+    padding: 2rem 0;
+}
+.cart__container{
+    width: 80%;
+    display: fle;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto;
+}
+.cart{
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-rows: 8rem;
+}
+.cart__image img{
+    width: 100%;
+    height: 100%;
+}
