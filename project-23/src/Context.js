@@ -37,6 +37,9 @@ function AppProvider({children}){
     useEffect(()=>{
         fetchData();
     },[])
+    useEffect(()=>{
+        dispatch({type: 'GET_TOTAL'})
+    },[state.cartData])
     return <AppContext.Provider
     value = {{
         ...globalState,
@@ -51,7 +54,7 @@ function AppProvider({children}){
 
 
 }
-const Usecontext =()=>{
+const useGlobalContext =()=>{
     return useContext(AppContext)
 }
-export {AppProvider, Usecontext}
+export {AppProvider, useGlobalContext}

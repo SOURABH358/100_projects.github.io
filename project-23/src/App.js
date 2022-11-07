@@ -1,10 +1,10 @@
 import React from "react"
 import './App.css'
-import {Usecontext} from './Context'
+import {useGlobalContext} from './Context'
 import CartContainer from "./cartContainer";
 import Navbar from "./Navbar";
 export default function App(){
-    const {loading} = Usecontext();
+    const {loading} = useGlobalContext();
     if(loading)
     {
         return (<h1 className="loading">

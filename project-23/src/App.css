@@ -42,3 +42,16 @@ body{
     width: 100%;
     height: 100%;
 }
+.cart__amount{
+    position: relative;
+}
+.cart__amount div{
+    position: absolute;
+    top: -2rem;
+    right: -2rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    background-color: azure;
+    border-radius: 50%;
+}

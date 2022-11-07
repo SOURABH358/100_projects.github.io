@@ -1,8 +1,7 @@
 export default function reducer(state, action) {
     // 
-    if(action.type === 'LOADING')
-    {
-        return {...state, loading: true}
+    if (action.type === 'LOADING') {
+        return { ...state, loading: true }
     }
     if (action.type === 'FETCH_DATA') {
         return { ...state, loading: false, cartData: action.payload }
@@ -38,4 +37,20 @@ export default function reducer(state, action) {
             })
         }
     }
+    if (action.type === 'GET_TOTAL') {
+        const { total, amount } = state.cartData.reduce(initial, cart => {
+            initial.total += cart.amount * cart.price,
+                initial.amount += cart.amount;
+            return initial;
+        }, {
+            total: 0,
+            amount: 0
+        })
+        return {
+            ...state,
+            total,
+            amount
+        }
+    }
+    throw new Error('No matching type')
 }

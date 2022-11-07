@@ -1,9 +1,9 @@
 import React from "react";
 import Cart from "./cart";
-import { Usecontext } from "./Context";
+import { useGlobalContext } from "./Context";
 
 export default function CartContainer(){
-    const {cartData} = Usecontext()
+    const {cartData} = useGlobalContext()
     return (
         <div className="cart__container">
             {cartData.map(el=>{

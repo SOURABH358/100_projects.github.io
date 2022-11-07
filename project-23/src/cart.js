@@ -1,7 +1,7 @@
 import React from "react";
-import { Usecontext } from "./Context";
+import { useGlobalContext } from "./Context";
 export default function Cart({id, title, price, description, image, amount}){
-    const {remove, increase, decrease} = Usecontext();
+    const {remove, increase, decrease} = useGlobalContext();
     return (
         <div className="cart">
             <div className="cart__image">
