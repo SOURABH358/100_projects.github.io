@@ -60,9 +60,9 @@ In this project i have build a grocery bud app. It uses the local storage to cre
 ### Screenshot  
 <p align = "center">
     <img src = "./Screenshot/screenshot-2.png"/>
-</p>
-### Links  
+</p>  
 
+### Links    
 [Code](./project-02)  
 Live -  [Live website URL here](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html) 
 
