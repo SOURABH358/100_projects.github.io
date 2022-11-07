@@ -35,6 +35,8 @@ body{
     grid-template-columns: 1fr 7fr 1fr;
     grid-template-rows: 14rem;
     border: 2px solid cornflowerblue;
+    overflow: hidden;
+    border-radius: 1.5rem;
 }
 .cart__image{
     padding: 2.5rem 1rem;
@@ -68,7 +70,14 @@ body{
 .counters button{
     width: 100%;
     background-color: transparent;
+    font-weight: bolder;
+    height: 2rem;
+    color: cornflowerblue;;
+    font-size: 1.25rem;
+}
+.counters button:hover{
     background-color: cornflowerblue;
+    color: white;
 }
 .inc__btn{
     border: none;
@@ -77,6 +86,11 @@ body{
 .dec__btn{
     border: none;
     border-top: 2px solid cornflowerblue;
+}
+.counters p{
+    
+    font-size: 1.25rem;
+    font-weight: bolder;
 }
 .cart__logo{
     width: 1rem;
@@ -104,9 +118,15 @@ body{
 }
 .clear__btn{
     width: 6rem;
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid cornflowerblue;
 
 }
 .empty__bag{
     text-align: center;
     padding: 2rem 0;
+}
+.total{
+    font-weight: bolder;
 }

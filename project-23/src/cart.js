@@ -14,9 +14,9 @@ export default function Cart({id, title, price, description, image, amount}){
                 <button type = "button" className = "remove__btn" onClick={()=>remove(id)}>remove</button>
             </div>
             <div className="counters">
-                <button type = "button" onClick={()=>increase(id)} className = "inc__btn">🔼</button>
+                <button type = "button" onClick={()=>increase(id)} className = "inc__btn">+</button>
                 <p>{amount}</p>
-                <button type = "button" onClick = {()=>decrease(id)} className = "dec__btn">🔽</button>
+                <button type = "button" onClick = {()=>decrease(id)} className = "dec__btn">-</button>
             </div>
         </div>
     )
