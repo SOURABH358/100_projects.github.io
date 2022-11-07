@@ -10,7 +10,7 @@ export default function Cart({id, title, price, description, image, amount}){
             <div className="cart__item">
                 <h2 className="cart__title">{title}</h2>
                 <p className="description">{description.substr(0,200)}...</p>
-                <p className="price">Price - {price}</p>
+                <p className="price">Price - $ {price}</p>
                 <button type = "button" className = "remove__btn" onClick={()=>remove(id)}>remove</button>
             </div>
             <div className="counters">

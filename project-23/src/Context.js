@@ -15,10 +15,11 @@ function AppProvider({children}){
         dispatch({type: 'LOADING'})
         const response = await fetch('https://fakestoreapi.com/products')
         const data = await response.json()
-        const modifyData = data.map(el=>{
+        let modifyData = data.map(el=>{
             el.amount = 1;
             return el
-        })
+        }).slice(0,5)
+        
         // console.log(modifyData)
         dispatch({type: 'FETCH_DATA', payload: [...modifyData]})
     }

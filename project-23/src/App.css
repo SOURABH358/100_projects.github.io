@@ -11,6 +11,7 @@ body{
 .loading{
     text-align: center;
     padding: 2rem 0;
+    color: cornflowerblue;
 }
 .navbar{
     padding: 1.5rem 0;
@@ -33,13 +34,12 @@ body{
 .cart{
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
-    grid-template-rows: 14rem;
-    border: 2px solid cornflowerblue;
-    overflow: hidden;
-    border-radius: 1.5rem;
+    grid-template-rows: 10rem;
+   
+    border-bottom: 2px solid cornflowerblue;
 }
 .cart__image{
-    padding: 2.5rem 1rem;
+    padding: 1.5rem 1rem;
     
 }
 .cart__image img{
@@ -48,17 +48,22 @@ body{
 }
 .cart__item{
     padding: 1rem;
-    border-left: 2px solid cornflowerblue;
-    border-right: 2px solid cornflowerblue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+.description{
+    font-size: 0.8rem;
+}
+.price{
+    color: cornflowerblue;
+    font-weight: bolder;
+}
 .remove__btn{
     width: 6rem;
     background-color: cornflowerblue;
-    color: white;
     border: 2px solid cornflowerblue;
+    color: white;
 }
 .counters{
     height: 100%;
@@ -74,19 +79,21 @@ body{
     height: 2rem;
     color: cornflowerblue;;
     font-size: 1.25rem;
+    border: none;
 }
+
 .counters button:hover{
     background-color: cornflowerblue;
     color: white;
 }
-.inc__btn{
+/* .inc__btn{
     border: none;
     border-bottom: 2px solid cornflowerblue;
 }
 .dec__btn{
     border: none;
     border-top: 2px solid cornflowerblue;
-}
+} */
 .counters p{
     
     font-size: 1.25rem;
@@ -112,21 +119,25 @@ body{
     width: 80%;
     margin: auto;
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    place-items: center;
+    grid-template-columns: 1fr;
+    column-gap: 1rem;
     margin-bottom: 3rem;
 }
 .clear__btn{
-    width: 6rem;
+    width: 8rem;
+    height: 2rem;
     background-color: cornflowerblue;
     color: white;
     border: 2px solid cornflowerblue;
-
+    place-self: center;
 }
 .empty__bag{
     text-align: center;
     padding: 2rem 0;
+    color: cornflowerblue;
 }
 .total{
     font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
 }

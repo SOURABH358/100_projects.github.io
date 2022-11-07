@@ -15,8 +15,8 @@ export default function CartContainer() {
                 })}
             </div>
             <div className="footer">
-                <button className="clear__btn" type="button" onClick={()=>{clearCart()}}>Clear All</button>
-                <div className="total">Total - Rs {total}</div>
+                <div className="total"><div>Total</div><div>$ {total}</div></div>
+                <button className="clear__btn" type="button" onClick={()=>{clearCart()}}>Clear Cart</button>
             </div>
         </>
     )
