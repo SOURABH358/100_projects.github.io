@@ -6,15 +6,15 @@ available on the internet from various resources like Youtube Github etc.
 ## Table of Content
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Projects &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Demo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 |  :----------------:   |   :------------------:  |     :--------------:       |
-|[Project-1](#project-1)|   [live site ](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)    |Food Menu filter|
-|   [Project-2](#project-2)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html)    |Responsive grocery list|
-|   [Project-3](#project-3)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)    |Responsive tabs|
-|   [Project-4](#project-4)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calculator App|
-|   [Project-5](#project-5)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-5/)              |NFT Card|
-|   [Project-6](#project-6)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-6/)              |Advice Generator App|
-|   [Project-7](#project-7)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
-|   [Project-8](#project-8)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-8/)              |Animated Cards|
-|   [Project-9](#project-9)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-9/)              |Remote Work landing page|
+|[Project-1](#project-01)|   [live site ](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)    |Food Menu filter|
+|   [Project-2](#project-02)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html)    |Responsive grocery list|
+|   [Project-3](#project-03)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)    |Responsive tabs|
+|   [Project-4](#project-04)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calculator App|
+|   [Project-5](#project-05)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-5/)              |NFT Card|
+|   [Project-6](#project-06)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-6/)              |Advice Generator App|
+|   [Project-7](#project-07)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
+|   [Project-8](#project-08)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-8/)              |Animated Cards|
+|   [Project-9](#project-09)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-9/)              |Remote Work landing page|
 |   [Project-10](#project-10)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-10/)              |Expense tracker chart component|
 |   [Project-11](#project-11)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-11/)              |Order Summary Component|
 |   [Project-12](#project-12)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-12/)              |Room Home Page|
@@ -26,7 +26,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-18](#project-18)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-18/)                  |QR Code Generator|
 |   [Project-19](#project-19)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-19/)                   |Email Validator|
 
-## Project-1
+## Project-01
 >Food Menu Filter
 
 In this project We have a food menu filter that allows the user to filter food menu according to their preferences.
@@ -44,7 +44,7 @@ You can check the code for the [project](/project-1) in my repo. **Here you can 
 </p>
 
 
-## Project-2  
+## Project-02  
 >Grocery Bud   
 
 In this project i have build a grocery bud app. It uses the local storage to create and retain the list.  
@@ -62,7 +62,7 @@ You can check my code for the [project](./project-2) in the repo. **Here check t
 </p>
 
 
-## Project-3  
+## Project-03  
 >Responsive Tabs   
 
 In this project I have made responsive tabs, which switch using javascript. It is a very basic project and will help beginners learning web development.
@@ -78,11 +78,11 @@ In this project I have made responsive tabs, which switch using javascript. It i
 </p>  
 
 ### Links  
-[Code](./project-3)  
+[Code](./project-03)  
 Live -  [Live website URL here](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)  
 
 
-## Project-4
+## Project-04
 >Calculator App
 
 In this project I have made a basic calculator App. It is in completion of frontend mentor challenge. App has three different themes which can changed using a single toggle switch.  
@@ -109,11 +109,11 @@ In this project I have made a basic calculator App. It is in completion of front
 
 
 ### Links  
-[Code](./project-4)  
+[Code](./project-04)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/calculator-app-M5y3LNQ0r)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-4/)
 
-## Project-5
+## Project-05
 >NFT Card
 
 This project is a challenge completed by me at Frontendmentor. It is a NFT Card for Eutherium with some cool UI.  
@@ -128,12 +128,12 @@ This project is a challenge completed by me at Frontendmentor. It is a NFT Card 
 </p>  
 
 ### Links
-[Code](./project-5)  
+[Code](./project-05)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-challenge-hub-KXd3-rg4G)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-5/)
 
 
-## Project-6
+## Project-06
 >Advice Generator App
 
 This is another challenge completed by me of Frontendmentor. It is an amazing website to practice front end. the following project is Advice Generator App, displaying different advices using an API.  
@@ -151,12 +151,12 @@ This is another challenge completed by me of Frontendmentor. It is an amazing we
 </p>  
 
 ### Links
-[Code](./project-6)  
+[Code](./project-06)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-ulVxNw9TH)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-6/)  
 
 
-## Project-7
+## Project-07
 >Animated website
 
 This is an animated website. Website is divided into two partitions which change sizes and translate on hover which make it look very beautiful. Hope you like it.
@@ -172,11 +172,11 @@ This is an animated website. Website is divided into two partitions which change
 </p>  
 
 ### Links
-[Code](./project-7)  
+[Code](./project-07)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-7/)  
 
 
-## Project-8
+## Project-08
 >Animated Cards
 
 In this project I have made animated cards which expands and contracts after being clicked. Do check it out.  
@@ -192,11 +192,11 @@ In this project I have made animated cards which expands and contracts after bei
 </p>  
 
 ### Links
-[Code](./project-8)  
+[Code](./project-08)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-8/)  
 
 
-## Project-9
+## Project-09
 >Remote work landing page
 
 In this project I have completed one of the challenges of Front end mentor. Challenge was to design a landing page for Remote work website.  
@@ -213,7 +213,7 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 </p> 
 
 ### Links
-[Code](./project-9)  
+[Code](./project-09)  
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-BkgzY7CUq)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-9/)  
 
