@@ -29,7 +29,7 @@ function AppProvider({children}){
         dispatch({type: 'DECREASE', payload: id})
     }
     function clearCart(){
-
+        dispatch({type: 'CLEAR_CART'})
     }
     function remove(id){
         dispatch({type: 'REMOVE', payload: id})
@@ -39,7 +39,7 @@ function AppProvider({children}){
     },[])
     useEffect(()=>{
         dispatch({type: 'GET_TOTAL'})
-    },[state.cartData])
+    },[globalState.cartData])
     return <AppContext.Provider
     value = {{
         ...globalState,

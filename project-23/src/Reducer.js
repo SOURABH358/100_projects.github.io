@@ -38,19 +38,24 @@ export default function reducer(state, action) {
         }
     }
     if (action.type === 'GET_TOTAL') {
-        const { total, amount } = state.cartData.reduce(initial, cart => {
-            initial.total += cart.amount * cart.price,
+        let { total, amount } = state.cartData.reduce((initial, cart) => {
+            initial.total += cart.amount * cart.price;
                 initial.amount += cart.amount;
             return initial;
         }, {
             total: 0,
             amount: 0
         })
+        total = parseFloat(total.toFixed(2))
         return {
             ...state,
             total,
             amount
         }
+    }
+    if(action.type === 'CLEAR_CART')
+    {
+        return {...state, cartData : []}
     }
     throw new Error('No matching type')
 }

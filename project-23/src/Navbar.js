@@ -5,9 +5,9 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <h1>Cart</h1>
-            <p className="cart__amount">👜
-                <div>{amount}</div>
-            </p>
+            <div className="cart__logo">👜
+                <p className="cart__amount">{amount}</p>
+            </div>
         </nav>
     )
 }
