@@ -34,7 +34,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
     grid-template-rows: 14rem;
-    border: 2px solid teal;
+    border: 2px solid cornflowerblue;
 }
 .cart__image{
     padding: 2.5rem 1rem;
@@ -46,14 +46,17 @@ body{
 }
 .cart__item{
     padding: 1rem;
-    border-left: 2px solid teal;
-    border-right: 2px solid teal;
+    border-left: 2px solid cornflowerblue;
+    border-right: 2px solid cornflowerblue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .remove__btn{
     width: 6rem;
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid cornflowerblue;
 }
 .counters{
     height: 100%;
@@ -65,15 +68,15 @@ body{
 .counters button{
     width: 100%;
     background-color: transparent;
-    background-color: teal;
+    background-color: cornflowerblue;
 }
 .inc__btn{
     border: none;
-    border-bottom: 2px solid teal;
+    border-bottom: 2px solid cornflowerblue;
 }
 .dec__btn{
     border: none;
-    border-top: 2px solid teal;
+    border-top: 2px solid cornflowerblue;
 }
 .cart__logo{
     width: 1rem;
