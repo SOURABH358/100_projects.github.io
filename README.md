@@ -36,13 +36,15 @@ In this project We have a food menu filter that allows the user to filter food m
 - CSS
 - JAVASCRIPT
     
-You can check the code for the [project](/project-1) in my repo. **Here you can check the live working [demo](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)**  
-
 ### Screenshot  
 <p align = "center">
     <img src = "./Screenshot/screenshot-1.png"/>
 </p>
 
+### Links  
+
+[Code](./project-01)  
+Live -  [Live website URL here](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)   
 
 ## Project-02  
 >Grocery Bud   
@@ -53,14 +55,16 @@ In this project i have build a grocery bud app. It uses the local storage to cre
 - HTML
 - CSS
 - JAVASCRIPT
-    
-You can check my code for the [project](./project-2) in the repo. **Here check the [live](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html) demo**
+
 
 ### Screenshot  
 <p align = "center">
     <img src = "./Screenshot/screenshot-2.png"/>
 </p>
+### Links  
 
+[Code](./project-02)  
+Live -  [Live website URL here](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html) 
 
 ## Project-03  
 >Responsive Tabs   
