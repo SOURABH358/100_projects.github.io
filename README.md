@@ -6,15 +6,15 @@ available on the internet from various resources like Youtube Github etc.
 ## Table of Content
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Projects &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Demo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 |  :----------------:   |   :------------------:  |     :--------------:       |
-|[Project-1](#project-01)|   [live site ](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)    |Food Menu filter|
-|   [Project-2](#project-02)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html)    |Responsive grocery list|
-|   [Project-3](#project-03)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)    |Responsive tabs|
-|   [Project-4](#project-04)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calculator App|
-|   [Project-5](#project-05)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-5/)              |NFT Card|
-|   [Project-6](#project-06)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-6/)              |Advice Generator App|
-|   [Project-7](#project-07)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
-|   [Project-8](#project-08)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-8/)              |Animated Cards|
-|   [Project-9](#project-09)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-9/)              |Remote Work landing page|
+|   [Project-01](#project-01)|   [live site ](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)    |Food Menu filter|
+|   [Project-02](#project-02)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html)    |Responsive grocery list|
+|   [Project-03](#project-03)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)    |Responsive tabs|
+|   [Project-04](#project-04)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-4/)              |Calculator App|
+|   [Project-05](#project-05)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-5/)              |NFT Card|
+|   [Project-06](#project-06)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-6/)              |Advice Generator App|
+|   [Project-07](#project-07)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-7/)              |Animated website|
+|   [Project-08](#project-08)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-8/)              |Animated Cards|
+|   [Project-09](#project-09)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-9/)              |Remote Work landing page|
 |   [Project-10](#project-10)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-10/)              |Expense tracker chart component|
 |   [Project-11](#project-11)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-11/)              |Order Summary Component|
 |   [Project-12](#project-12)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-12/)              |Room Home Page|
