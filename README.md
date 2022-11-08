@@ -320,9 +320,10 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 ### Screenshot  
 <p align = "center">
     <img src = "./Screenshot/screenshot-14.jpg"/>
-</p>
-### Links
-[Code](./project-14)  
+</p>  
+
+### Links  
+[Code](./project-14)    
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/profile-card-component-15N9uwqTLm)  
 Live Website - [Live Website URL here](https://timely-torte-74a5d9.netlify.app/)  
 
