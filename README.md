@@ -25,7 +25,8 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-17](#project-17)   |   [live site](https://thriving-mandazi-5946cd.netlify.app/)                                     |Product Preview Card|
 |   [Project-18](#project-18)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-18/)                  |QR Code Generator|
 |   [Project-19](#project-19)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-19/)                   |Email Validator|
-|   [Project-20](#project-20)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-20/)                   |News Homepage|
+|   [Project-20](#project-20)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-20/)                   |Speech To Text|
+|   [Project-21](#project-21)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-21/)                   |News Homepage|
 
 ## Project-01
 >Food Menu Filter
@@ -431,6 +432,23 @@ Check live [Demo](https://sourabh358.github.io/100_projects.github.io/project-19
 
 [Code](./project-19)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-19/index.html)
+
+## Project-20
+>Speech To Text
+
+A Speech to text application, the converted text can be copied to clipboard and can be pasted. 
+
+### Built With
+- Semantic HTML5 markup
+- CSS
+- Javascript
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-20.jpg"/>
+</p>
+
+[Code](./project-20)  
+Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-20/index.html)  
 
 ## Project-21
 >News Homepage
