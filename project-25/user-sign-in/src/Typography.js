@@ -6,7 +6,7 @@ import { Avatar } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme()
-function TypographyExample() {
+function signIn() {
     return <ThemeProvider theme={theme}>
         <Grid container component='main'
             sx={{
@@ -106,4 +106,4 @@ function TypographyExample() {
         </Grid>
     </ThemeProvider>
 }
-export default TypographyExample
+export default signIn

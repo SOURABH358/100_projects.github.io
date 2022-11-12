@@ -1,7 +1,7 @@
 import React from "react";
-import TypographyExample from "./Typography";
+import signIn from "./Typography";
 function App(){
-    return <TypographyExample/>
+    return <signIn/>
 }
 
 export default App
