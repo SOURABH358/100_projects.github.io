@@ -404,6 +404,8 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-ePWujdIscU)  
 Live Website - [Live Website URL here](https://thriving-mandazi-5946cd.netlify.app/)  
 
+
+⏫[BackToTop](#table-of-content)
 ## Project-18
 >QR Code Generator
 
@@ -423,6 +425,8 @@ In this project I have built a QR Code generator. The app requires a text, url f
 [Code](./project-18)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-18/index.html)  
 
+
+⏫[BackToTop](#table-of-content)
 ## Project-19
 >Email Validator
 
@@ -441,6 +445,8 @@ Check live [Demo](https://sourabh358.github.io/100_projects.github.io/project-19
 [Code](./project-19)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-19/index.html)
 
+
+⏫[BackToTop](#table-of-content)
 ## Project-20
 >Speech To Text
 
@@ -458,6 +464,8 @@ A Speech to text application, the converted text can be copied to clipboard and 
 [Code](./project-20)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-20/index.html)  
 
+
+⏫[BackToTop](#table-of-content)
 ## Project-21
 >News Homepage
 
