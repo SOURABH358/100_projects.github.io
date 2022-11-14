@@ -31,7 +31,7 @@ You can check live working of all the projects [here](https://jolly-entremet-917
 |   [Project-19](#project-19)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-19/)                   |Email Validator|
 |   [Project-20](#project-20)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-20/)                   |Speech To Text|
 |   [Project-21](#project-21)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-21/)                   |News Homepage|
-|   [Project-22](#project-22)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-22/)                   |Sudoku|
+|   [Project-22](#project-22)   |   [live site](https://sweet-praline-be9bad.netlify.app/)                                         |Sudoku|
 
 ## Project-01
 >Food Menu Filter
