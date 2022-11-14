@@ -1,6 +1,10 @@
 # 100 front end projects
-These are some of the basic projects that i practiced while learning basic front-end. They helped me a lot in my learning journey. They are basically a compilation of some projects
-available on the internet from various resources like Youtube Github etc.
+These are some of the basic projects that i practiced while learning basic front-end. They helped me a lot in my learning journey. They are basically a compilation of some projects available on the internet from various resources like Youtube Github etc.
+
+
+
+You can check live working of all the projects [here](https://jolly-entremet-917fa6.netlify.app/)  
+
 >Practice is the key, keep practicing :v:
 
 ## Table of Content
@@ -28,6 +32,7 @@ available on the internet from various resources like Youtube Github etc.
 |   [Project-20](#project-20)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-20/)                   |Speech To Text|
 |   [Project-21](#project-21)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-21/)                   |News Homepage|
 
+
 ## Project-01
 >Food Menu Filter
 
@@ -48,6 +53,7 @@ In this project We have a food menu filter that allows the user to filter food m
 [Code](./project-01)  
 Live -  [Live website URL here](https://sourabh358.github.io/100_projects.github.io/project-1/index2.html)   
 
+⏫[BackToTop](#table-of-content)
 ## Project-02  
 >Grocery Bud   
 
@@ -68,6 +74,7 @@ In this project i have build a grocery bud app. It uses the local storage to cre
 [Code](./project-02)  
 Live -  [Live website URL here](https://sourabh358.github.io/100_projects.github.io/project-2/grocery.html) 
 
+⏫[BackToTop](#table-of-content)
 ## Project-03  
 >Responsive Tabs   
 
@@ -87,7 +94,7 @@ In this project I have made responsive tabs, which switch using javascript. It i
 [Code](./project-03)  
 Live -  [Live website URL here](https://sourabh358.github.io/100_projects.github.io/project-3/index.html)  
 
-
+⏫[BackToTop](#table-of-content)
 ## Project-04
 >Calculator App
 
@@ -119,6 +126,7 @@ In this project I have made a basic calculator App. It is in completion of front
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/calculator-app-M5y3LNQ0r)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-4/)
 
+⏫[BackToTop](#table-of-content)
 ## Project-05
 >NFT Card
 
@@ -138,7 +146,7 @@ This project is a challenge completed by me at Frontendmentor. It is a NFT Card 
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-challenge-hub-KXd3-rg4G)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-5/)
 
-
+⏫[BackToTop](#table-of-content)
 ## Project-06
 >Advice Generator App
 
@@ -161,7 +169,7 @@ This is another challenge completed by me of Frontendmentor. It is an amazing we
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-ulVxNw9TH)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-6/)  
 
-
+⏫[BackToTop](#table-of-content)
 ## Project-07
 >Animated website
 
@@ -181,7 +189,7 @@ This is an animated website. Website is divided into two partitions which change
 [Code](./project-07)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-7/)  
 
-
+⏫[BackToTop](#table-of-content)
 ## Project-08
 >Animated Cards
 
@@ -201,7 +209,7 @@ In this project I have made animated cards which expands and contracts after bei
 [Code](./project-08)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-8/)  
 
-
+⏫[BackToTop](#table-of-content)
 ## Project-09
 >Remote work landing page
 
@@ -223,7 +231,7 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-BkgzY7CUq)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-9/)  
 
-
+⏫[BackToTop](#table-of-content)
 ## Project-10
 >Expense tracker chart component
 
@@ -244,7 +252,7 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/expense-tracker-chart-component-Zb4VAxQC9H)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-10/)  
 
-
+⏫[BackToTop](#table-of-content)
 ## Project-11
 >Order Summary Component
 
@@ -266,6 +274,7 @@ Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/order
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-11/)
 
 
+⏫[BackToTop](#table-of-content)
 ## Project-12
 >Room Home Page
 
@@ -288,6 +297,7 @@ Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/room-
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-12/)
 
 
+⏫[BackToTop](#table-of-content)
 ## Project-13
 >3-Column Card Component
 
@@ -309,7 +319,7 @@ Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/3colu
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-13/)  
 
  
-
+⏫[BackToTop](#table-of-content)
 ## Project-14
 >Profile-Card-Component
 
@@ -330,7 +340,7 @@ Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/profi
 Live Website - [Live Website URL here](https://timely-torte-74a5d9.netlify.app/)  
 
   
-
+⏫[BackToTop](#table-of-content)
 ## Project-15
 >Bookmark Landing Page
 
@@ -352,6 +362,7 @@ Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/bookm
 Live Website - [Live Website URL here](https://magenta-narwhal-dab150.netlify.app/)  
 
 
+⏫[BackToTop](#table-of-content)
 ## Project-16
 >Time Tracking dashboard
 
@@ -376,6 +387,7 @@ Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/time-
 Live Website - [Live Website URL here](https://musical-gelato-07fe55.netlify.app/)  
 
 
+⏫[BackToTop](#table-of-content)
 ## Project-17
 >Project preview card component
 
@@ -396,6 +408,8 @@ In this project I have completed one of the challenges of Front end mentor. Chal
 Solution Url - [Solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-ePWujdIscU)  
 Live Website - [Live Website URL here](https://thriving-mandazi-5946cd.netlify.app/)  
 
+
+⏫[BackToTop](#table-of-content)
 ## Project-18
 >QR Code Generator
 
@@ -415,6 +429,8 @@ In this project I have built a QR Code generator. The app requires a text, url f
 [Code](./project-18)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-18/index.html)  
 
+
+⏫[BackToTop](#table-of-content)
 ## Project-19
 >Email Validator
 
@@ -433,6 +449,8 @@ Check live [Demo](https://sourabh358.github.io/100_projects.github.io/project-19
 [Code](./project-19)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-19/index.html)
 
+
+⏫[BackToTop](#table-of-content)
 ## Project-20
 >Speech To Text
 
@@ -450,6 +468,8 @@ A Speech to text application, the converted text can be copied to clipboard and 
 [Code](./project-20)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-20/index.html)  
 
+
+⏫[BackToTop](#table-of-content)
 ## Project-21
 >News Homepage
 
