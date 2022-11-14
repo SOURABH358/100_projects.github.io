@@ -31,7 +31,7 @@ You can check live working of all the projects [here](https://jolly-entremet-917
 |   [Project-19](#project-19)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-19/)                   |Email Validator|
 |   [Project-20](#project-20)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-20/)                   |Speech To Text|
 |   [Project-21](#project-21)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-21/)                   |News Homepage|
-
+|   [Project-22](#project-22)   |   [live site](https://sourabh358.github.io/100_projects.github.io/project-22/)                   |Sudoku|
 
 ## Project-01
 >Food Menu Filter
@@ -487,6 +487,23 @@ Frontend mentor challenge that I attempted, it is a beautiful news homepage.
 [Code](./project-21)  
 Live Website - [Live Website URL here](https://sourabh358.github.io/100_projects.github.io/project-21/index.html)  
 Solution - [Solution](https://www.frontendmentor.io/solutions/newshomepage-4hAoZc-F8x)
+
+
+⏫[BackToTop](#table-of-content)
+## Project-22
+>Sudoku
+
+A simple sudoku app made using ReactJs.
+
+### Built With
+- Create React App
+### Screenshot  
+<p align = "center">
+    <img src = "./Screenshot/screenshot-22.jpg"/>
+</p>
+
+[Code](./project-22)  
+Live Website - [Live Website URL here](https://sweet-praline-be9bad.netlify.app/)  
 
 ## Author
 Frontend Mentor - [@sourabh358](https://www.frontendmentor.io/profile/sourabh358)  
