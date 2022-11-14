@@ -1,6 +1,10 @@
 # 100 front end projects
-These are some of the basic projects that i practiced while learning basic front-end. They helped me a lot in my learning journey. They are basically a compilation of some projects
-available on the internet from various resources like Youtube Github etc.
+These are some of the basic projects that i practiced while learning basic front-end. They helped me a lot in my learning journey. They are basically a compilation of some projects available on the internet from various resources like Youtube Github etc.
+
+
+
+You can check live working of all the projects [here](https://jolly-entremet-917fa6.netlify.app/)  
+
 >Practice is the key, keep practicing :v:
 
 ## Table of Content
